@@ -43,8 +43,8 @@ if [ -f "$temp_pdf_file" ]; then
     echo "Successfully created: $parent_pdf_file"
     
     # Clean up auxiliary files
-    # rm -f "$dir/$base_filename.aux" "$dir/$base_filename.log" "$dir/$base_filename.out"
-    # echo "Cleaned up auxiliary files"
+    rm -f "$dir/$base_filename.aux" "$dir/$base_filename.log" "$dir/$base_filename.out"
+    echo "Cleaned up auxiliary files"
 else
     echo "Error: PDF generation failed"
     exit 1
