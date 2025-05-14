@@ -1,0 +1,271 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    showstringspaces=false,
+    commentstyle=\color{gray},
+    keywordstyle=\color{blue},
+    stringstyle=\color{green!50!black},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    numbersep=5pt
+}
+
+\title{Tokenization and Embeddings: Connecting Concepts}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+In the realm of natural language processing (NLP) and multimodal AI, tokenization and embeddings represent two fundamental but distinct processes that work in tandem to transform human-interpretable information into machine-processable representations. This article explores the intricate relationship between these concepts, highlighting their similarities, differences, and the methods by which they are developed and trained.
+
+\section{Fundamental Concepts}
+\subsection{What is Tokenization?}
+Tokenization is the process of breaking down text (or other data) into smaller units called tokens. These tokens serve as the atomic units of processing for machine learning models. In traditional NLP, tokens often correspond to words, subwords, or characters, while in multimodal contexts, tokens might represent image patches, audio segments, or video frames.
+
+\subsection{What are Embeddings?}
+Embeddings are dense vector representations of tokens in a continuous vector space. These numerical representations capture semantic relationships between tokens, enabling mathematical operations on otherwise discrete symbolic data. Embeddings transform sparse, high-dimensional one-hot encodings into dense, lower-dimensional vectors that encode meaning.
+
+\section{The Relationship Between Tokenization and Embeddings}
+\subsection{Sequential Relationship}
+In typical machine learning pipelines, tokenization precedes embedding:
+
+\begin{enumerate}
+\item \textbf{Tokenization}: Raw input → Discrete tokens
+\item \textbf{Embedding}: Discrete tokens → Continuous vector representations
+\end{enumerate}
+
+\begin{lstlisting}[language=Python]
+# Example of the sequential relationship
+from transformers import BertTokenizer, BertModel
+import torch
+
+# Initialize tokenizer and model
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+model = BertModel.from_pretrained('bert-base-uncased')
+
+# Input text
+text = "Tokenization precedes embedding in the NLP pipeline."
+
+# Step 1: Tokenization
+tokens = tokenizer(text, return_tensors="pt")
+print(f"Tokenized IDs: {tokens['input_ids'][0][:10]}...")
+
+# Step 2: Embedding
+with torch.no_grad():
+    embeddings = model(**tokens).last_hidden_state
+
+print(f"Embedding shape: {embeddings.shape}")
+print(f"First token embedding (CLS): {embeddings[0][0][:5]}...")
+\end{lstlisting}
+
+\subsection{Conceptual Similarities}
+\begin{enumerate}
+\item \textbf{Representation Learning}: Both tokenization and embedding are forms of representation learning, transforming raw data into more useful formats.
+
+\item \textbf{Dimensionality Management}: Both manage dimensionality—tokenization by discretizing continuous input, embeddings by compressing sparse representations.
+
+\item \textbf{Contextual Adaptation}: Modern approaches to both tokenization and embedding are increasingly context-aware.
+
+\item \textbf{Transferability}: Both can be transferred across tasks and domains.
+\end{enumerate}
+
+\subsection{Key Differences}
+\begin{enumerate}
+\item \textbf{Nature of Representation}:
+   \begin{itemize}
+   \item Tokenization: Discrete, symbolic representation
+   \item Embeddings: Continuous, numerical representation
+   \end{itemize}
+
+\item \textbf{Information Density}:
+   \begin{itemize}
+   \item Tokenization: May lose information through segmentation
+   \item Embeddings: Compress information while preserving semantic relationships
+   \end{itemize}
+
+\item \textbf{Mathematical Operations}:
+   \begin{itemize}
+   \item Tokenization: Limited mathematical operations possible
+   \item Embeddings: Support rich mathematical operations (distance, similarity, arithmetic)
+   \end{itemize}
+
+\item \textbf{Reversibility}:
+   \begin{itemize}
+   \item Tokenization: Often reversible (tokens → original text)
+   \item Embeddings: Generally irreversible (vectors → exact tokens)
+   \end{itemize}
+\end{enumerate}
+
+\begin{lstlisting}[language=Python]
+# Demonstrating reversibility difference
+from transformers import BertTokenizer
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+
+# Original text
+text = "Embeddings capture semantic relationships."
+
+# Tokenization is reversible
+tokens = tokenizer.encode(text)
+recovered_text = tokenizer.decode(tokens)
+print(f"Original: {text}")
+print(f"Recovered: {recovered_text}")
+
+# Embeddings are not reversible
+# Let's create a simple embedding space for demonstration
+word_to_embedding = {
+    'embeddings': np.array([0.1, 0.2, 0.3]),
+    'capture': np.array([0.4, 0.5, 0.6]),
+    'semantic': np.array([0.7, 0.8, 0.9]),
+    'relationships': np.array([0.15, 0.25, 0.35])
+}
+
+# If we have a new vector, we can find the closest word but not recover exactly
+new_vector = np.array([0.12, 0.22, 0.32])
+similarities = {word: cosine_similarity([vec], [new_vector])[0][0] 
+               for word, vec in word_to_embedding.items()}
+most_similar = max(similarities.items(), key=lambda x: x[1])
+print(f"New vector is most similar to: {most_similar[0]} with similarity {most_similar[1]:.4f}")
+\end{lstlisting}
+
+\section{Development and Training Approaches}
+\subsection{Tokenizer Development}
+\subsubsection{Rule-based Tokenizers}
+The simplest tokenizers are rule-based, using predefined patterns:
+
+\begin{lstlisting}[language=Python]
+# Simple rule-based tokenizer
+def simple_tokenizer(text):
+    # Remove punctuation and split on whitespace
+    import re
+    text = re.sub(r'[^\w\s]', '', text)
+    return text.split()
+
+text = "Hello, world! How are you today?"
+tokens = simple_tokenizer(text)
+print(tokens)  # ['Hello', 'world', 'How', 'are', 'you', 'today']
+\end{lstlisting}
+
+Rule-based tokenizers require no training but lack adaptability to new domains or languages.
+
+\section{Mathematical Foundations of Embeddings}
+
+\subsection{Word2Vec Skip-gram Model}
+The Skip-gram model maximizes the probability of context words given a target word:
+
+\begin{equation*}
+\mathcal{L} = \sum_{t=1}^T \sum_{-c \leq j \leq c, j \neq 0} \log P(w_{t+j}|w_t)
+\end{equation*}
+
+where:
+\begin{itemize}
+\item $c$ is the context window size
+\item $w_t$ is the target word
+\item $w_{t+j}$ are context words
+\end{itemize}
+
+The probability is computed using softmax:
+\begin{equation*}
+P(w_O|w_I) = \frac{\exp(v'_{w_O}^T v_{w_I})}{\sum_{w \in V} \exp(v'_w^T v_{w_I})}
+\end{equation*}
+
+where $v_w$ and $v'_w$ are the input and output vectors for word $w$.
+
+\subsection{GloVe (Global Vectors)}
+GloVe learns word vectors by minimizing:
+
+\begin{equation*}
+J = \sum_{i,j=1}^{|V|} f(X_{ij})(w_i^T \tilde{w}_j + b_i + \tilde{b}_j - \log X_{ij})^2
+\end{equation*}
+
+where:
+\begin{itemize}
+\item $X_{ij}$ is the co-occurrence count between words $i$ and $j$
+\item $f(x)$ is a weighting function
+\item $w_i$, $\tilde{w}_j$ are word vectors
+\item $b_i$, $\tilde{b}_j$ are bias terms
+\end{itemize}
+
+\subsection{BERT's Contextual Embeddings}
+BERT uses masked language modeling with attention:
+
+\begin{equation*}
+\text{Attention}(Q, K, V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V
+\end{equation*}
+
+The final embedding for token $i$ is:
+\begin{equation*}
+h_i^L = \text{LayerNorm}(\text{FFN}(\text{MultiHead}(h_i^{L-1})))
+\end{equation*}
+
+where:
+\begin{itemize}
+\item $h_i^L$ is the embedding at layer $L$
+\item FFN is a feed-forward network
+\item MultiHead combines multiple attention heads
+\end{itemize}
+
+\subsection{Cross-modal Contrastive Learning}
+For multimodal embeddings, the contrastive loss is:
+
+\begin{equation*}
+\mathcal{L} = -\log \frac{\exp(s(x,y^+)/\tau)}{\sum_{y \in Y} \exp(s(x,y)/\tau)}
+\end{equation*}
+
+where:
+\begin{itemize}
+\item $s(x,y)$ is the similarity between embeddings
+\item $y^+$ is the positive (matching) example
+\item $\tau$ is the temperature parameter
+\end{itemize}
+
+\textbf{Algorithm (Contrastive Learning):}
+\begin{enumerate}
+\item For each batch:
+   \begin{itemize}
+   \item Generate embeddings for all modalities
+   \item Compute similarities between pairs
+   \item Update embeddings to maximize similarity of matching pairs
+   \item While maintaining distance between non-matching pairs
+   \end{itemize}
+\end{enumerate}
+
+\subsection{Dynamic Token Embeddings}
+Adaptive token embeddings use a gating mechanism:
+
+\begin{equation*}
+e_t = g_t \odot e_t^{\text{static}} + (1-g_t) \odot e_t^{\text{dynamic}}
+\end{equation*}
+
+where:
+\begin{itemize}
+\item $g_t$ is a context-dependent gate
+\item $e_t^{\text{static}}$ is the pre-trained embedding
+\item $e_t^{\text{dynamic}}$ is the context-dependent embedding
+\end{itemize}
+
+\textbf{Algorithm (Dynamic Embedding):}
+\begin{enumerate}
+\item For each token $t$:
+   \begin{itemize}
+   \item Compute context representation
+   \item Generate dynamic embedding
+   \item Calculate gate values
+   \item Combine static and dynamic components
+   \end{itemize}
+\end{enumerate}
+
+\end{document}
