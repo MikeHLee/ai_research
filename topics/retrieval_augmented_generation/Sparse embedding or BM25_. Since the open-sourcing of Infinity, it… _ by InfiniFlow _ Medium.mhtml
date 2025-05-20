@@ -1,0 +1,2533 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://medium.com/@infiniflowai/sparse-embedding-or-bm25-84c942b3eda7
+Subject: =?utf-8?Q?Sparse=20embedding=20or=20BM25?.=20Since=20the=20open-sourcing?=
+ =?utf-8?Q?=20of=20Infinity,=20it=E2=80=A6=20|=20by=20InfiniFlow=20|=20Med?=
+ =?utf-8?Q?ium?=
+Date: Mon, 19 May 2025 10:19:54 -0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----"
+
+
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/html
+Content-ID: <frame-FBAEEFE4341520CD046BD4DBF45EB1E7@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://medium.com/@infiniflowai/sparse-embedding-or-bm25-84c942b3eda7
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-119bdaa7-133d-4026-ba82-7d85842aeb0a@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2a768755-c752-4412=
+-bbf9-b37b4f328e9c@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-bc31b673-d8f3-4d82-9b8d-95bbd8be5e55@mhtml.blink" /><link=
+ rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2c9c211b-ac83-4077-a4=
+ca-b0243243a346@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" h=
+ref=3D"cid:css-0dfa863f-3132-4073-844c-bc5b76325422@mhtml.blink" /><link re=
+l=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ec3d8d8e-3fb1-4e22-8d1f-=
+88441d91c649@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-962142d9-4c9e-4b00-a295-a08359dc5b92@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7431491a-1c42-4de9-aeb9-0=
+d5a660a17fb@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-6789a5be-b14e-4fa6-84ab-b00e753ed650@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-238b6c30-8aee-4c7b-8429-8=
+832d73e86cc@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-93f68257-e780-454d-87e1-e3e73e30f788@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-784e8b1d-346d-4e96-9c12-9=
+b63bc0208e4@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-36c8b9d0-313a-4386-b6df-fdb270110c97@mhtml.blink" /><title data=
+-rh=3D"true">Sparse embedding or BM25?. Since the open-sourcing of Infinity=
+, it=E2=80=A6 | by InfiniFlow | Medium</title><meta data-rh=3D"true" name=
+=3D"viewport" content=3D"width=3Ddevice-width,minimum-scale=3D1,initial-sca=
+le=3D1,maximum-scale=3D1"><meta data-rh=3D"true" name=3D"theme-color" conte=
+nt=3D"#000000"><meta data-rh=3D"true" name=3D"twitter:app:name:iphone" cont=
+ent=3D"Medium"><meta data-rh=3D"true" name=3D"twitter:app:id:iphone" conten=
+t=3D"828256236"><meta data-rh=3D"true" property=3D"al:ios:app_name" content=
+=3D"Medium"><meta data-rh=3D"true" property=3D"al:ios:app_store_id" content=
+=3D"828256236"><meta data-rh=3D"true" property=3D"al:android:package" conte=
+nt=3D"com.medium.reader"><meta data-rh=3D"true" property=3D"fb:app_id" cont=
+ent=3D"542599432471018"><meta data-rh=3D"true" property=3D"og:site_name" co=
+ntent=3D"Medium"><meta data-rh=3D"true" name=3D"apple-itunes-app" content=
+=3D"app-id=3D828256236, app-argument=3D/@infiniflowai/sparse-embedding-or-b=
+m25-84c942b3eda7"><meta data-rh=3D"true" property=3D"og:type" content=3D"ar=
+ticle"><meta data-rh=3D"true" property=3D"article:published_time" content=
+=3D"2024-02-13T03:14:55.908Z"><meta data-rh=3D"true" name=3D"title" content=
+=3D"Sparse embedding or BM25?. Since the open-sourcing of Infinity, it=E2=
+=80=A6 | by InfiniFlow | Medium"><meta data-rh=3D"true" property=3D"og:titl=
+e" content=3D"Sparse embedding or BM25?"><meta data-rh=3D"true" property=3D=
+"al:android:url" content=3D"medium://p/84c942b3eda7"><meta data-rh=3D"true"=
+ property=3D"al:ios:url" content=3D"medium://p/84c942b3eda7"><meta data-rh=
+=3D"true" property=3D"al:android:app_name" content=3D"Medium"><meta data-rh=
+=3D"true" name=3D"description" content=3D"Since the open-sourcing of Infini=
+ty, it has received a wide positive response from the community. Regarding =
+the essential RAG technology we promote =E2=80=94 multiple recall (vector r=
+ecall, full-text search=E2=80=A6"><meta data-rh=3D"true" property=3D"og:des=
+cription" content=3D"Since the open-sourcing of Infinity, it has received a=
+ wide positive response from the community. Regarding the essential RAG tec=
+hnology we=E2=80=A6"><meta data-rh=3D"true" property=3D"og:url" content=3D"=
+https://medium.com/@infiniflowai/sparse-embedding-or-bm25-84c942b3eda7"><me=
+ta data-rh=3D"true" property=3D"al:web:url" content=3D"https://medium.com/@=
+infiniflowai/sparse-embedding-or-bm25-84c942b3eda7"><meta data-rh=3D"true" =
+property=3D"og:image" content=3D"https://miro.medium.com/v2/resize:fit:960/=
+1*Iem4egFSFEmqiW74gHziZw.png"><meta data-rh=3D"true" property=3D"article:au=
+thor" content=3D"https://medium.com/@infiniflowai"><meta data-rh=3D"true" n=
+ame=3D"author" content=3D"InfiniFlow"><meta data-rh=3D"true" name=3D"robots=
+" content=3D"index,noarchive,follow,max-image-preview:large"><meta data-rh=
+=3D"true" name=3D"referrer" content=3D"unsafe-url"><meta data-rh=3D"true" p=
+roperty=3D"twitter:title" content=3D"Sparse embedding or BM25?"><meta data-=
+rh=3D"true" name=3D"twitter:site" content=3D"@Medium"><meta data-rh=3D"true=
+" name=3D"twitter:app:url:iphone" content=3D"medium://p/84c942b3eda7"><meta=
+ data-rh=3D"true" property=3D"twitter:description" content=3D"Since the ope=
+n-sourcing of Infinity, it has received a wide positive response from the c=
+ommunity. Regarding the essential RAG technology we=E2=80=A6"><meta data-rh=
+=3D"true" name=3D"twitter:image:src" content=3D"https://miro.medium.com/v2/=
+resize:fit:960/1*Iem4egFSFEmqiW74gHziZw.png"><meta data-rh=3D"true" name=3D=
+"twitter:card" content=3D"summary_large_image"><meta data-rh=3D"true" name=
+=3D"twitter:creator" content=3D"@infiniflowai"><meta data-rh=3D"true" name=
+=3D"twitter:label1" content=3D"Reading time"><meta data-rh=3D"true" name=3D=
+"twitter:data1" content=3D"7 min read"><link data-rh=3D"true" rel=3D"icon" =
+href=3D"https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db31=
+3057fa3c3de41c6f5b494b19"><link data-rh=3D"true" rel=3D"search" type=3D"app=
+lication/opensearchdescription+xml" title=3D"Medium" href=3D"https://medium=
+.com/osd.xml"><link data-rh=3D"true" rel=3D"apple-touch-icon" sizes=3D"152x=
+152" href=3D"https://miro.medium.com/v2/resize:fill:304:304/10fd5c419ac6163=
+7245384e7099e131627900034828f4f386bdaa47a74eae156"><link data-rh=3D"true" r=
+el=3D"apple-touch-icon" sizes=3D"120x120" href=3D"https://miro.medium.com/v=
+2/resize:fill:240:240/10fd5c419ac61637245384e7099e131627900034828f4f386bdaa=
+47a74eae156"><link data-rh=3D"true" rel=3D"apple-touch-icon" sizes=3D"76x76=
+" href=3D"https://miro.medium.com/v2/resize:fill:152:152/10fd5c419ac6163724=
+5384e7099e131627900034828f4f386bdaa47a74eae156"><link data-rh=3D"true" rel=
+=3D"apple-touch-icon" sizes=3D"60x60" href=3D"https://miro.medium.com/v2/re=
+size:fill:120:120/10fd5c419ac61637245384e7099e131627900034828f4f386bdaa47a7=
+4eae156"><link data-rh=3D"true" rel=3D"mask-icon" href=3D"https://miro.medi=
+um.com/v2/resize:fill:1000:1000/7*GAOKVe--MXbEJmV9230oOQ.png" color=3D"#171=
+717"><link data-rh=3D"true" rel=3D"preconnect" href=3D"https://glyph.medium=
+.com/" crossorigin=3D""><link data-rh=3D"true" rel=3D"manifest" href=3D"htt=
+ps://medium.com/manifest.json"><link data-rh=3D"true" id=3D"glyph_preload_l=
+ink" rel=3D"preload" as=3D"style" type=3D"text/css" href=3D"https://glyph.m=
+edium.com/css/unbound.css"><link data-rh=3D"true" id=3D"glyph_link" rel=3D"=
+stylesheet" type=3D"text/css" href=3D"https://glyph.medium.com/css/unbound.=
+css"><link data-rh=3D"true" rel=3D"author" href=3D"https://medium.com/@infi=
+niflowai"><link data-rh=3D"true" rel=3D"canonical" href=3D"https://medium.c=
+om/@infiniflowai/sparse-embedding-or-bm25-84c942b3eda7"><link data-rh=3D"tr=
+ue" rel=3D"alternate" href=3D"android-app://com.medium.reader/https/medium.=
+com/p/84c942b3eda7"></head><body><div id=3D"root"><div class=3D"a b c"><div=
+ class=3D"d e f g h i j k"></div><div class=3D"l c"><div class=3D"l m n o c=
+"><div class=3D"p q r s t u v w x i d y z"><a class=3D"dt ag du be ak b am =
+an ao ap aq ar as at s u w i d q dv z" href=3D"https://rsci.app.link/?%24ca=
+nonical_url=3Dhttps%3A%2F%2Fmedium.com%2Fp%2F84c942b3eda7&amp;%7Efeature=3D=
+LoOpenInAppButton&amp;%7Echannel=3DShowPostUnderUser&amp;source=3Dpost_page=
+---top_nav_layout_nav-----------------------------------------" rel=3D"noop=
+ener follow">Open in app<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"=
+10" height=3D"10" fill=3D"none" viewBox=3D"0 0 10 10" class=3D"ds"><path fi=
+ll=3D"currentColor" d=3D"M.985 8.485a.375.375 0 1 0 .53.53zM8.75 1.25h.375A=
+.375.375 0 0 0 8.75.875zM8.375 6.5a.375.375 0 1 0 .75 0zM3.5.875a.375.375 0=
+ 1 0 0 .75zm-1.985 8.14 7.5-7.5-.53-.53-7.5 7.5zm6.86-7.765V6.5h.75V1.25zM3=
+.5 1.625h5.25v-.75H3.5z"></path></svg></a><div class=3D"ab q"><p class=3D"b=
+e b dw dx dy dz ea eb ec ed ee ef dt"><span><button class=3D"be b dw dx eg =
+dy dz eh ea eb ei ej ed ek el ef em eo ep eq er es et eu ev ew ex ey ez fa =
+fb fc bl fd fe" data-testid=3D"headerSignUpButton">Sign up</button></span><=
+/p><div class=3D"ff l"><p class=3D"be b dw dx dy dz ea eb ec ed ee ef dt"><=
+span><a class=3D"af ag ah fg aj ak al am an ao ap aq ar as at" data-testid=
+=3D"headerSignInButton" rel=3D"noopener follow" href=3D"https://medium.com/=
+m/signin?operation=3Dlogin&amp;redirect=3Dhttps%3A%2F%2Fmedium.com%2F%40inf=
+iniflowai%2Fsparse-embedding-or-bm25-84c942b3eda7&amp;source=3Dpost_page---=
+top_nav_layout_nav-----------------------global_nav------------------">Sign=
+ in</a></span></p></div></div></div><div class=3D"p q r ab ac"><div class=
+=3D"ab q ae"><a class=3D"af ag ah ai aj ak al am an ao ap aq ar as at ab" a=
+ria-label=3D"Homepage" data-testid=3D"headerMediumLogo" rel=3D"noopener fol=
+low" href=3D"https://medium.com/?source=3Dpost_page---top_nav_layout_nav---=
+--------------------------------------"><svg xmlns=3D"http://www.w3.org/200=
+0/svg" width=3D"719" height=3D"160" fill=3D"none" aria-labelledby=3D"wordma=
+rk-medium-desc" viewBox=3D"0 0 719 160" class=3D"au av aw"><desc id=3D"word=
+mark-medium-desc">Medium Logo</desc><path fill=3D"#242424" d=3D"m174.104 9.=
+734.215-.047V8.02H130.39L89.6 103.89 48.81 8.021H1.472v1.666l.212.047c8.018=
+ 1.81 12.09 4.509 12.09 14.242V137.93c0 9.734-4.087 12.433-12.106 14.243l-.=
+212.047v1.671h32.118v-1.665l-.213-.048c-8.018-1.809-12.089-4.509-12.089-14.=
+242V30.586l52.399 123.305h2.972l53.925-126.743V140.75c-.687 7.688-4.721 10.=
+062-11.982 11.701l-.215.05v1.652h55.948v-1.652l-.215-.05c-7.269-1.639-11.4-=
+4.013-12.087-11.701l-.037-116.774h.037c0-9.733 4.071-12.432 12.087-14.242m2=
+5.555 75.488c.915-20.474 8.268-35.252 20.606-35.507 3.806.063 6.998 1.312 9=
+.479 3.714 5.272 5.118 7.751 15.812 7.368 31.793zm-.553 5.77h65.573v-.275c-=
+.186-15.656-4.721-27.834-13.466-36.196-7.559-7.227-18.751-11.203-30.507-11.=
+203h-.263c-6.101 0-13.584 1.48-18.909 4.16-6.061 2.807-11.407 7.003-15.855 =
+12.511-7.161 8.874-11.499 20.866-12.554 34.343q-.05.606-.092 1.212a50 50 0 =
+0 0-.065 1.151 85.807 85.807 0 0 0-.094 5.689c.71 30.524 17.198 54.917 46.4=
+83 54.917 25.705 0 40.675-18.791 44.407-44.013l-1.886-.664c-6.557 13.556-18=
+.334 21.771-31.738 20.769-18.297-1.369-32.314-19.922-31.042-42.395m139.722 =
+41.359c-2.151 5.101-6.639 7.908-12.653 7.908s-11.513-4.129-15.418-11.63c-4.=
+197-8.053-6.405-19.436-6.405-32.92 0-28.067 8.729-46.22 22.24-46.22 5.657 0=
+ 10.111 2.807 12.236 7.704zm43.499 20.008c-8.019-1.897-12.089-4.722-12.089-=
+14.951V1.309l-48.716 14.353v1.757l.299-.024c6.72-.543 11.278.386 13.925 2.8=
+3 2.072 1.915 3.082 4.853 3.082 8.987v18.66c-4.803-3.067-10.516-4.56-17.448=
+-4.56-14.059 0-26.909 5.92-36.176 16.672-9.66 11.205-14.767 26.518-14.767 4=
+4.278-.003 31.72 15.612 53.039 38.851 53.039 13.595 0 24.533-7.449 29.54-20=
+.013v16.865h43.711v-1.746zM424.1 19.819c0-9.904-7.468-17.374-17.375-17.374-=
+9.859 0-17.573 7.632-17.573 17.374s7.721 17.374 17.573 17.374c9.907 0 17.37=
+5-7.47 17.375-17.374m11.499 132.546c-8.019-1.897-12.089-4.722-12.089-14.951=
+h-.035V43.635l-43.714 12.551v1.705l.263.024c9.458.842 12.047 4.1 12.047 15.=
+152v81.086h43.751v-1.746zm112.013 0c-8.018-1.897-12.089-4.722-12.089-14.951=
+V43.635l-41.621 12.137v1.71l.246.026c7.733.813 9.967 4.257 9.967 15.36v59.2=
+79c-2.578 5.102-7.415 8.131-13.274 8.336-9.503 0-14.736-6.419-14.736-18.073=
+V43.638l-43.714 12.55v1.703l.262.024c9.459.84 12.05 4.097 12.05 15.152v50.1=
+7a56.3 56.3 0 0 0 .91 10.444l.787 3.423c3.701 13.262 13.398 20.197 28.59 20=
+.197 12.868 0 24.147-7.966 29.115-20.43v17.311h43.714v-1.747zm169.818 1.788=
+v-1.749l-.213-.05c-8.7-2.006-12.089-5.789-12.089-13.49v-63.79c0-19.89-11.17=
+1-31.761-29.883-31.761-13.64 0-25.141 7.882-29.569 20.16-3.517-13.01-13.639=
+-20.16-28.606-20.16-13.146 0-23.449 6.938-27.869 18.657V43.643L545.487 55.6=
+8v1.715l.263.024c9.345.829 12.047 4.181 12.047 14.95v81.784h40.787v-1.746l-=
+.215-.053c-6.941-1.631-9.181-4.606-9.181-12.239V66.998c1.836-4.289 5.537-9.=
+37 12.853-9.37 9.086 0 13.692 6.296 13.692 18.697v77.828h40.797v-1.746l-.21=
+5-.053c-6.94-1.631-9.18-4.606-9.18-12.239V75.066a42 42 0 0 0-.578-7.26c1.94=
+7-4.661 5.86-10.177 13.475-10.177 9.214 0 13.691 6.114 13.691 18.696v77.828=
+z"></path></svg></a><div class=3D"ax h"><div class=3D"ab ai ay az ba q bb b=
+c"><div class=3D"bl" aria-hidden=3D"false" aria-describedby=3D"searchResult=
+s" aria-labelledby=3D"searchResults"></div><div class=3D"bm bn ab"><svg xml=
+ns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" fill=3D"none" =
+viewBox=3D"0 0 24 24"><path fill=3D"currentColor" fill-rule=3D"evenodd" d=
+=3D"M4.092 11.06a6.95 6.95 0 1 1 13.9 0 6.95 6.95 0 0 1-13.9 0m6.95-8.05a8.=
+05 8.05 0 1 0 5.13 14.26l3.75 3.75a.56.56 0 1 0 .79-.79l-3.73-3.73A8.05 8.0=
+5 0 0 0 11.042 3z" clip-rule=3D"evenodd"></path></svg></div><input role=3D"=
+combobox" aria-controls=3D"searchResults" aria-expanded=3D"false" aria-labe=
+l=3D"search" data-testid=3D"headerSearchInput" tabindex=3D"0" class=3D"ai b=
+d be bf z bg bh bi bj bk" placeholder=3D"Search" value=3D""></div></div></d=
+iv><div class=3D"h k w fh fi"><div class=3D"fj ab"><span><a class=3D"af ag =
+ah fg aj ak al am an ao ap aq ar as at" data-testid=3D"headerWriteButton" r=
+el=3D"noopener follow" href=3D"https://medium.com/m/signin?operation=3Dregi=
+ster&amp;redirect=3Dhttps%3A%2F%2Fmedium.com%2Fnew-story&amp;source=3D---to=
+p_nav_layout_nav-----------------------new_post_topnav------------------"><=
+div class=3D"be b bf z dt fk fl ab q fm fn"><svg xmlns=3D"http://www.w3.org=
+/2000/svg" width=3D"24" height=3D"24" fill=3D"none" viewBox=3D"0 0 24 24" a=
+ria-label=3D"Write"><path fill=3D"currentColor" d=3D"M14 4a.5.5 0 0 0 0-1zm=
+7 6a.5.5 0 0 0-1 0zm-7-7H4v1h10zM3 4v16h1V4zm1 17h16v-1H4zm17-1V10h-1v10zm-=
+1 1a1 1 0 0 0 1-1h-1zM3 20a1 1 0 0 0 1 1v-1zM4 3a1 1 0 0 0-1 1h1z"></path><=
+path stroke=3D"currentColor" d=3D"m17.5 4.5-8.458 8.458a.25.25 0 0 0-.06.09=
+8l-.824 2.47a.25.25 0 0 0 .316.316l2.47-.823a.25.25 0 0 0 .098-.06L19.5 6.5=
+m-2-2 2.323-2.323a.25.25 0 0 1 .354 0l1.646 1.646a.25.25 0 0 1 0 .354L19.5 =
+6.5m-2-2 2 2"></path></svg><div class=3D"ds l">Write</div></div></a></span>=
+</div></div><div class=3D"k j i d"><div class=3D"fj ab"><a class=3D"af ag a=
+h fg aj ak al am an ao ap aq ar as at" data-testid=3D"headerSearchButton" r=
+el=3D"noopener follow" href=3D"https://medium.com/search?source=3Dpost_page=
+---top_nav_layout_nav-----------------------------------------"><div class=
+=3D"be b bf z dt fk fl ab q fm fn"><svg xmlns=3D"http://www.w3.org/2000/svg=
+" width=3D"24" height=3D"24" fill=3D"none" viewBox=3D"0 0 24 24" aria-label=
+=3D"Search"><path fill=3D"currentColor" fill-rule=3D"evenodd" d=3D"M4.092 1=
+1.06a6.95 6.95 0 1 1 13.9 0 6.95 6.95 0 0 1-13.9 0m6.95-8.05a8.05 8.05 0 1 =
+0 5.13 14.26l3.75 3.75a.56.56 0 1 0 .79-.79l-3.73-3.73A8.05 8.05 0 0 0 11.0=
+42 3z" clip-rule=3D"evenodd"></path></svg></div></a></div></div><div class=
+=3D"fj h k j"><div class=3D"ab q"><p class=3D"be b dw dx dy dz ea eb ec ed =
+ee ef dt"><span><button class=3D"be b dw dx eg dy dz eh ea eb ei ej ed ek e=
+l ef em eo ep eq er es et eu ev ew ex ey ez fa fb fc bl fd fe" data-testid=
+=3D"headerSignUpButton">Sign up</button></span></p><div class=3D"ff l"><p c=
+lass=3D"be b dw dx dy dz ea eb ec ed ee ef dt"><span><a class=3D"af ag ah f=
+g aj ak al am an ao ap aq ar as at" data-testid=3D"headerSignInButton" rel=
+=3D"noopener follow" href=3D"https://medium.com/m/signin?operation=3Dlogin&=
+amp;redirect=3Dhttps%3A%2F%2Fmedium.com%2F%40infiniflowai%2Fsparse-embeddin=
+g-or-bm25-84c942b3eda7&amp;source=3Dpost_page---top_nav_layout_nav---------=
+--------------global_nav------------------">Sign in</a></span></p></div></d=
+iv></div><div class=3D"l" aria-hidden=3D"false"><button class=3D"ai fo am a=
+b q ao fp fq fr" aria-label=3D"user options menu" data-testid=3D"headerUser=
+Icon"><div class=3D"l fk"><img alt=3D"" class=3D"l fc bw bx by cw" src=3D"h=
+ttps://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png" w=
+idth=3D"32" height=3D"32" loading=3D"lazy" role=3D"presentation"><div class=
+=3D"fs bw l bx by ft n ai fu"></div></div></button></div></div></div><div c=
+lass=3D"ab"><div class=3D"bz bg"><div class=3D"l"><div class=3D"fv fw fx fy=
+ fz l"><div class=3D"ab ca"><div class=3D"ch bg ga gb gc gd"></div></div><a=
+rticle><div class=3D"l"><div class=3D"l"><span class=3D"l"></span><section>=
+<div><div class=3D"ft gj gk gl gm gn"></div><div class=3D"go gp gq gr gs"><=
+div class=3D"ab ca"><div class=3D"ch bg ga gb gc gd"><div><h1 id=3D"1360" c=
+lass=3D"pw-post-title gt gu gv be gw gx gy gz ha hb hc hd he hf hg hh hi hj=
+ hk hl hm hn ho hp hq hr hs ht hu hv bj" data-testid=3D"storyTitle">Sparse =
+embedding or BM25?</h1><div><div class=3D"speechify-ignore ab co"><div clas=
+s=3D"speechify-ignore bg l"><div class=3D"ab hw hx hy hz ia ib ic id ie if =
+ig"><div class=3D"ab q ig"><div class=3D"ab ih"><div><div class=3D"bl" aria=
+-hidden=3D"false"><a rel=3D"noopener follow" href=3D"https://medium.com/@in=
+finiflowai?source=3Dpost_page---byline--84c942b3eda7-----------------------=
+----------------"><div class=3D"l ii ij bw ik il"><div class=3D"l fk"><img =
+alt=3D"InfiniFlow" class=3D"l fc bw bx by cw" src=3D"https://miro.medium.co=
+m/v2/resize:fill:64:64/1*ux7TZyv2WDGdMbv6kCjWiQ.png" width=3D"32" height=3D=
+"32" loading=3D"lazy" data-testid=3D"authorPhoto"><div class=3D"im bw l bx =
+by ft n in fu"></div></div></div></a></div></div></div><span class=3D"be b =
+bf z bj"><div class=3D"io ab q"><div class=3D"ab q ip"><div class=3D"ab q">=
+<div><div class=3D"bl" aria-hidden=3D"false"><span class=3D"be b bf z bj"><=
+a class=3D"af ag ah fg aj ak al am an ao ap aq ar iq" data-testid=3D"author=
+Name" rel=3D"noopener follow" href=3D"https://medium.com/@infiniflowai?sour=
+ce=3Dpost_page---byline--84c942b3eda7--------------------------------------=
+-">InfiniFlow</a></span></div></div></div><div class=3D"ir bl"></div><div c=
+lass=3D"bl" aria-hidden=3D"false"><div class=3D"bl"><button style=3D"border=
+:1px solid rgba(0, 0, 0, 0)" class=3D"is it ao ab ca q ap ew iu iv iw"><spa=
+n class=3D"be b bf z bj"><span class=3D"l ix">Follow</span></span></button>=
+</div></div></div></div></span></div><div class=3D"ab q iy"><span class=3D"=
+be b bf z dt"><div class=3D"ab ae"><span data-testid=3D"storyReadTime">7 mi=
+n read</span><div class=3D"iz ja l" aria-hidden=3D"true"><span class=3D"l" =
+aria-hidden=3D"true"><span class=3D"be b bf z dt">=C2=B7</span></span></div=
+><span data-testid=3D"storyPublishDate">Feb 13, 2024</span></div></span></d=
+iv></div><div class=3D"ab co jb jc jd je jf jg jh ji jj jk jl jm jn jo jp j=
+q"><div class=3D"h k w fh fi q"><div class=3D"kg l"><div class=3D"ab q kh k=
+i"><div class=3D"pw-multi-vote-icon fk kj kk kl km"><span><a class=3D"af ag=
+ ah fg aj ak al am an ao ap aq ar as at" data-testid=3D"headerClapButton" r=
+el=3D"noopener follow" href=3D"https://medium.com/m/signin?actionUrl=3Dhttp=
+s%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F84c942b3eda7&amp;operation=3Dregister=
+&amp;redirect=3Dhttps%3A%2F%2Fmedium.com%2F%40infiniflowai%2Fsparse-embeddi=
+ng-or-bm25-84c942b3eda7&amp;user=3DInfiniFlow&amp;userId=3D7dacef0a514f&amp=
+;source=3D---header_actions--84c942b3eda7---------------------clap_footer--=
+----------------"><div><div class=3D"bl" aria-hidden=3D"false"><div class=
+=3D"kn ao ko kp kq kr am ks kt ku km"><svg xmlns=3D"http://www.w3.org/2000/=
+svg" width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" aria-label=3D"clap"><=
+path fill-rule=3D"evenodd" d=3D"M11.37.828 12 3.282l.63-2.454zM13.916 3.953=
+l1.523-2.112-1.184-.39zM8.589 1.84l1.522 2.112-.337-2.501zM18.523 18.92c-.8=
+6.86-1.75 1.246-2.62 1.33a6 6 0 0 0 .407-.372c2.388-2.389 2.86-4.951 1.399-=
+7.623l-.912-1.603-.79-1.672c-.26-.56-.194-.98.203-1.288a.7.7 0 0 1 .546-.13=
+2c.283.046.546.231.728.5l2.363 4.157c.976 1.624 1.141 4.237-1.324 6.702m-10=
+.999-.438L3.37 14.328a.828.828 0 0 1 .585-1.408.83.83 0 0 1 .585.242l2.158 =
+2.157a.365.365 0 0 0 .516-.516l-2.157-2.158-1.449-1.449a.826.826 0 0 1 1.16=
+7-1.17l3.438 3.44a.363.363 0 0 0 .516 0 .364.364 0 0 0 0-.516L5.293 9.513l-=
+.97-.97a.826.826 0 0 1 0-1.166.84.84 0 0 1 1.167 0l.97.968 3.437 3.436a.36.=
+36 0 0 0 .517 0 .366.366 0 0 0 0-.516L6.977 7.83a.82.82 0 0 1-.241-.584.82.=
+82 0 0 1 .824-.826c.219 0 .43.087.584.242l5.787 5.787a.366.366 0 0 0 .587-.=
+415l-1.117-2.363c-.26-.56-.194-.98.204-1.289a.7.7 0 0 1 .546-.132c.283.046.=
+545.232.727.501l2.193 3.86c1.302 2.38.883 4.59-1.277 6.75-1.156 1.156-2.602=
+ 1.627-4.19 1.367-1.418-.236-2.866-1.033-4.079-2.246M10.75 5.971l2.12 2.12c=
+-.41.502-.465 1.17-.128 1.89l.22.465-3.523-3.523a.8.8 0 0 1-.097-.368c0-.22=
+.086-.428.241-.584a.847.847 0 0 1 1.167 0m7.355 1.705c-.31-.461-.746-.758-1=
+.23-.837a1.44 1.44 0 0 0-1.11.275c-.312.24-.505.543-.59.881a1.74 1.74 0 0 0=
+-.906-.465 1.47 1.47 0 0 0-.82.106l-2.182-2.182a1.56 1.56 0 0 0-2.2 0 1.54 =
+1.54 0 0 0-.396.701 1.56 1.56 0 0 0-2.21-.01 1.55 1.55 0 0 0-.416.753c-.624=
+-.624-1.649-.624-2.237-.037a1.557 1.557 0 0 0 0 2.2c-.239.1-.501.238-.715.4=
+53a1.56 1.56 0 0 0 0 2.2l.516.515a1.556 1.556 0 0 0-.753 2.615L7.01 19c1.32=
+ 1.319 2.909 2.189 4.475 2.449q.482.08.971.08c.85 0 1.653-.198 2.393-.579.2=
+31.033.46.054.686.054 1.266 0 2.457-.52 3.505-1.567 2.763-2.763 2.552-5.734=
+ 1.439-7.586z" clip-rule=3D"evenodd"></path></svg></div></div></div></a></s=
+pan></div><div class=3D"pw-multi-vote-count l kv kw kx ky kz la lb"><p clas=
+s=3D"be b du z dt"><span class=3D"lc">--</span></p></div></div></div><div><=
+div class=3D"bl" aria-hidden=3D"false"><button class=3D"ao kn lf lg ab q fl=
+ lh li" aria-label=3D"responses"><svg xmlns=3D"http://www.w3.org/2000/svg" =
+width=3D"24" height=3D"24" viewBox=3D"0 0 24 24" class=3D"le"><path d=3D"M1=
+8.006 16.803c1.533-1.456 2.234-3.325 2.234-5.321C20.24 7.357 16.709 4 12.19=
+1 4S4 7.357 4 11.482c0 4.126 3.674 7.482 8.191 7.482.817 0 1.622-.111 2.393=
+-.327.231.2.48.391.744.559 1.06.693 2.203 1.044 3.399 1.044.224-.008.4-.112=
+.486-.287a.49.49 0 0 0-.042-.518c-.495-.67-.845-1.364-1.04-2.057a4 4 0 0 1-=
+.125-.598zm-3.122 1.055-.067-.223-.315.096a8 8 0 0 1-2.311.338c-4.023 0-7.2=
+92-2.955-7.292-6.587 0-3.633 3.269-6.588 7.292-6.588 4.014 0 7.112 2.958 7.=
+112 6.593 0 1.794-.608 3.469-2.027 4.72l-.195.168v.255c0 .056 0 .151.016.29=
+5.025.231.081.478.154.733.154.558.398 1.117.722 1.659a5.3 5.3 0 0 1-2.165-.=
+845c-.276-.176-.714-.383-.941-.59z"></path></svg><p class=3D"be b du z dt">=
+<span class=3D"pw-responses-count ld le">1</span></p></button></div></div><=
+/div><div class=3D"ab q jr js jt ju jv jw jx jy jz ka kb kc kd ke kf"><div =
+class=3D"lj k j i d"></div><div class=3D"h k"><div><div class=3D"bl" aria-h=
+idden=3D"false"><span><a class=3D"af ag ah fg aj ak al am an ao ap aq ar as=
+ at" data-testid=3D"headerBookmarkButton" rel=3D"noopener follow" href=3D"h=
+ttps://medium.com/m/signin?actionUrl=3Dhttps%3A%2F%2Fmedium.com%2F_%2Fbookm=
+ark%2Fp%2F84c942b3eda7&amp;operation=3Dregister&amp;redirect=3Dhttps%3A%2F%=
+2Fmedium.com%2F%40infiniflowai%2Fsparse-embedding-or-bm25-84c942b3eda7&amp;=
+source=3D---header_actions--84c942b3eda7---------------------bookmark_foote=
+r------------------"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"25"=
+ height=3D"25" fill=3D"none" viewBox=3D"0 0 25 25" class=3D"dt lk" aria-lab=
+el=3D"Add to list bookmark button"><path fill=3D"currentColor" d=3D"M18 2.5=
+a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 =
+1 0-1H18zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 =
+0 .805.396L12.5 17l5.695 4.396A.5.5 0 0 0 19 21v-8.5a.5.5 0 0 0-1 0v7.485l-=
+5.195-4.012a.5.5 0 0 0-.61 0L7 19.985z"></path></svg></a></span></div></div=
+></div><div class=3D"fc ll cm"><div class=3D"l ae"><div class=3D"ab ca"><di=
+v class=3D"lm ln lo lp lq lr ch bg"><div class=3D"ab"><div class=3D"bl" ari=
+a-hidden=3D"false"><div><div class=3D"bl" aria-hidden=3D"false"><button ari=
+a-label=3D"Listen" data-testid=3D"audioPlayButton" class=3D"af fl ah fg aj =
+ak al ls an ao ap ew lt lu li lv lw lx ly lz s ma mb mc md me mf mg u mh mi=
+ mj"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" f=
+ill=3D"none" viewBox=3D"0 0 24 24"><path fill=3D"currentColor" fill-rule=3D=
+"evenodd" d=3D"M3 12a9 9 0 1 1 18 0 9 9 0 0 1-18 0m9-10C6.477 2 2 6.477 2 1=
+2s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2m3.376 10.416-4.599 3.066a.5.5=
+ 0 0 1-.777-.416V8.934a.5.5 0 0 1 .777-.416l4.599 3.066a.5.5 0 0 1 0 .832" =
+clip-rule=3D"evenodd"></path></svg><div class=3D"j i d"><p class=3D"be b bf=
+ z dt">Listen</p></div></button></div></div></div></div></div></div></div><=
+/div><div class=3D"bl" aria-hidden=3D"false" aria-describedby=3D"postFooter=
+SocialMenu" aria-labelledby=3D"postFooterSocialMenu"><div><div class=3D"bl"=
+ aria-hidden=3D"false"><button aria-controls=3D"postFooterSocialMenu" aria-=
+expanded=3D"false" aria-label=3D"Share Post" data-testid=3D"headerSocialSha=
+reButton" class=3D"af fl ah fg aj ak al ls an ao ap ew lt lu li lv lw lx ly=
+ lz s ma mb mc md me mf mg u mh mi mj"><svg xmlns=3D"http://www.w3.org/2000=
+/svg" width=3D"24" height=3D"24" fill=3D"none" viewBox=3D"0 0 24 24"><path =
+fill=3D"currentColor" fill-rule=3D"evenodd" d=3D"M15.218 4.931a.4.4 0 0 1-.=
+118.132l.012.006a.45.45 0 0 1-.292.074.5.5 0 0 1-.3-.13l-2.02-2.02v7.07c0 .=
+28-.23.5-.5.5s-.5-.22-.5-.5v-7.04l-2 2a.45.45 0 0 1-.57.04h-.02a.4.4 0 0 1-=
+.16-.3.4.4 0 0 1 .1-.32l2.8-2.8a.5.5 0 0 1 .7 0l2.8 2.79a.42.42 0 0 1 .068.=
+498m-.106.138.008.004v-.01zM16 7.063h1.5a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-11=
+c-1.1 0-2-.9-2-2v-10a2 2 0 0 1 2-2H8a.5.5 0 0 1 .35.15.5.5 0 0 1 .15.35.5.5=
+ 0 0 1-.15.35.5.5 0 0 1-.35.15H6.4c-.5 0-.9.4-.9.9v10.2a.9.9 0 0 0 .9.9h11.=
+2c.5 0 .9-.4.9-.9v-10.2c0-.5-.4-.9-.9-.9H16a.5.5 0 0 1 0-1" clip-rule=3D"ev=
+enodd"></path></svg><div class=3D"j i d"><p class=3D"be b bf z dt">Share</p=
+></div></button></div></div></div></div></div></div></div></div></div><p id=
+=3D"e1ad" class=3D"pw-post-body-paragraph mk ml gv mm b mn mo mp mq mr ms m=
+t mu mv mw mx my mz na nb nc nd ne nf ng nh go bj">Since the open-sourcing =
+of <a class=3D"af ni" href=3D"https://github.com/infiniflow/infinity/" rel=
+=3D"noopener ugc nofollow" target=3D"_blank">Infinity</a>, it has received =
+a wide positive response from the community. Regarding the essential RAG te=
+chnology we promote =E2=80=94 <code class=3D"cw nj nk nl nm b">multiple rec=
+all</code> (vector recall, full-text search, and structured data query), so=
+me friends mentioned that simply using vectors can also meet the requiremen=
+ts. What we traditionally refer to as vector retrieval is a type of query b=
+ased on dense vector data, known as Dense Embedding. There is another type =
+of vector data, sparse vector, known as Sparse Embedding, which can provide=
+ the precise queries necessary for RAG. By combining these two types of vec=
+tor data, multi-path recall can be achieved (2 paths of recall). With Spars=
+e Embedding, there is no need for full-text search; BM25 can be completely =
+replaced (BM25 is a common full-text indexing and sorting method, which can=
+ be seen as a variation of TF/IDF). Let's see if this is really possible. D=
+ense Embedding refers to vectors where the dimensions may not be very high,=
+ but each dimension is numerically represented as a certain weight. Sparse =
+Embedding refers to most dimensions of the vector being zero, with only a f=
+ew dimensions having values; the overall vector dimension can be very high.=
+ For example, in the two examples below, the top one is Dense Embedding, an=
+d the bottom one is Sparse Embedding. Since most dimensions have no values,=
+ the form (position, value) can be used to express each dimension with a we=
+ight in the vector.</p><pre class=3D"nn no np nq nr ns nm nt bo nu ba bj"><=
+span id=3D"f5bf" class=3D"nv nw gv nm b bf nx ny l nz oa">[0.2, 0.3, 0.5, 0=
+.7,......]<br>[{ 331 : 0.5 }, { 14136 : 0.7 }]</span></pre><p id=3D"3a48" c=
+lass=3D"pw-post-body-paragraph mk ml gv mm b mn mo mp mq mr ms mt mu mv mw =
+mx my mz na nb nc nd ne nf ng nh go bj">Sparse Embedding is used for precis=
+e recall, and even multiple recall, and most well-known vector databases ha=
+ve it, which can be seen in the references [1=E2=80=933] at the end of the =
+article. Simply put, a sparse vector refers to a vector with a high dimensi=
+on, for example, with 30,000 dimensions, where each dimension represents a =
+word. A dedicated Embedding model is used to project documents onto a spars=
+e vector, aligning this sparse vector with the document=E2=80=99s language =
+vocabulary. Subsequently, retrieval strategies are executed on the word dim=
+ension, which can achieve precise recall. From this perspective, sparse vec=
+tors are similar to the inverted index of full-text search, as shown in the=
+ simple inverted index below. If we look at the inverted index by column, e=
+ach column represents a list of words contained in a document, which is ess=
+entially a sparse vector. The three red boxes in the diagram represent thre=
+e different sparse vectors for document IDs 1, 3, and 7. The inverted index=
+ provides an efficient retrieval method for sparse vectors.</p><figure clas=
+s=3D"nn no np nq nr oe ob oc paragraph-image"><div role=3D"button" tabindex=
+=3D"0" class=3D"of og fk oh bg oi"><div class=3D"ob oc od"><picture><source=
+ srcset=3D"https://miro.medium.com/v2/resize:fit:640/format:webp/1*Iem4egFS=
+FEmqiW74gHziZw.png 640w, https://miro.medium.com/v2/resize:fit:720/format:w=
+ebp/1*Iem4egFSFEmqiW74gHziZw.png 720w, https://miro.medium.com/v2/resize:fi=
+t:750/format:webp/1*Iem4egFSFEmqiW74gHziZw.png 750w, https://miro.medium.co=
+m/v2/resize:fit:786/format:webp/1*Iem4egFSFEmqiW74gHziZw.png 786w, https://=
+miro.medium.com/v2/resize:fit:828/format:webp/1*Iem4egFSFEmqiW74gHziZw.png =
+828w, https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Iem4egFSFEmq=
+iW74gHziZw.png 1100w, https://miro.medium.com/v2/resize:fit:1400/format:web=
+p/1*Iem4egFSFEmqiW74gHziZw.png 1400w" sizes=3D"(min-resolution: 4dppx) and =
+(max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width=
+: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webki=
+t-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: =
+2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5)=
+ and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px=
+) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, =
+700px" type=3D"image/webp"><source data-testid=3D"og" srcset=3D"https://mir=
+o.medium.com/v2/resize:fit:640/1*Iem4egFSFEmqiW74gHziZw.png 640w, https://m=
+iro.medium.com/v2/resize:fit:720/1*Iem4egFSFEmqiW74gHziZw.png 720w, https:/=
+/miro.medium.com/v2/resize:fit:750/1*Iem4egFSFEmqiW74gHziZw.png 750w, https=
+://miro.medium.com/v2/resize:fit:786/1*Iem4egFSFEmqiW74gHziZw.png 786w, htt=
+ps://miro.medium.com/v2/resize:fit:828/1*Iem4egFSFEmqiW74gHziZw.png 828w, h=
+ttps://miro.medium.com/v2/resize:fit:1100/1*Iem4egFSFEmqiW74gHziZw.png 1100=
+w, https://miro.medium.com/v2/resize:fit:1400/1*Iem4egFSFEmqiW74gHziZw.png =
+1400w" sizes=3D"(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webk=
+it-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution:=
+ 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) an=
+d (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px)=
+ 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (=
+min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pi=
+xel-ratio: 2) and (max-width: 700px) 100vw, 700px"><img alt=3D"" class=3D"b=
+g lr oj c" width=3D"700" height=3D"436" loading=3D"lazy" role=3D"presentati=
+on"></picture></div></div></figure><p id=3D"6936" class=3D"pw-post-body-par=
+agraph mk ml gv mm b mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd ne =
+nf ng nh go bj">The Embedding model that generates sparse vectors is differ=
+ent from the Embedding model that generates ordinary dense vectors. The lat=
+ter projects documents into a dense vector that can only represent semantic=
+ relationships within the document. The former associates a specific dimens=
+ion with a specific word, but cannot represent semantics. The so-called sem=
+antics can be most simply summarized as representing the probability of dif=
+ferent words co-occurring in a context window =E2=80=94 this calculation me=
+thod was the earliest means of representing words and documents semanticall=
+y. Current Embedding models build upon the concept of co-occurrence and add=
+ress issues like representation robustness, but fundamentally, they are not=
+ different from the earliest semantic definitions.</p><p id=3D"648d" class=
+=3D"pw-post-body-paragraph mk ml gv mm b mn mo mp mq mr ms mt mu mv mw mx m=
+y mz na nb nc nd ne nf ng nh go bj">On the other hand, the Embedding model =
+that generates sparse vectors does not require this type of calculation. It=
+ focuses on how to further prune, expand, and define weights for words in t=
+he traditional Information Retrieval process based on the inverted index. A=
+ well-known and representative work in this field is SPLADE [4], which uses=
+ standard pre-training data to remove redundant terms from documents, add c=
+orresponding expansion terms, and generate a standard sparse vector output.=
+ The removal of redundant terms is akin to removing =E2=80=9Cstop words=E2=
+=80=9D in traditional search engine tokenization processes, while adding ex=
+pansion terms is similar to traditional search engines=E2=80=99 techniques =
+for querying synonyms and expanding.</p><p id=3D"d6ac" class=3D"pw-post-bod=
+y-paragraph mk ml gv mm b mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc n=
+d ne nf ng nh go bj">From a usage standpoint, it can represent any document=
+ as a 30,000-dimensional sparse vector, with each dimension indicating the =
+weight of a specific word. In various Information Retrieval evaluation task=
+s, using SPLADE sparse vectors has shown significantly better recall perfor=
+mance compared to traditional search engines based on BM25 ranking, as show=
+n in the figure.</p><figure class=3D"nn no np nq nr oe ob oc paragraph-imag=
+e"><div role=3D"button" tabindex=3D"0" class=3D"of og fk oh bg oi"><div cla=
+ss=3D"ob oc ok"><picture><source srcset=3D"https://miro.medium.com/v2/resiz=
+e:fit:640/format:webp/1*nfUexIXcqoIaDUFLYcPtwg.png 640w, https://miro.mediu=
+m.com/v2/resize:fit:720/format:webp/1*nfUexIXcqoIaDUFLYcPtwg.png 720w, http=
+s://miro.medium.com/v2/resize:fit:750/format:webp/1*nfUexIXcqoIaDUFLYcPtwg.=
+png 750w, https://miro.medium.com/v2/resize:fit:786/format:webp/1*nfUexIXcq=
+oIaDUFLYcPtwg.png 786w, https://miro.medium.com/v2/resize:fit:828/format:we=
+bp/1*nfUexIXcqoIaDUFLYcPtwg.png 828w, https://miro.medium.com/v2/resize:fit=
+:1100/format:webp/1*nfUexIXcqoIaDUFLYcPtwg.png 1100w, https://miro.medium.c=
+om/v2/resize:fit:1400/format:webp/1*nfUexIXcqoIaDUFLYcPtwg.png 1400w" sizes=
+=3D"(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-devic=
+e-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and =
+(max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width=
+: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-web=
+kit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resoluti=
+on: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2=
+) and (max-width: 700px) 100vw, 700px" type=3D"image/webp"><source data-tes=
+tid=3D"og" srcset=3D"https://miro.medium.com/v2/resize:fit:640/1*nfUexIXcqo=
+IaDUFLYcPtwg.png 640w, https://miro.medium.com/v2/resize:fit:720/1*nfUexIXc=
+qoIaDUFLYcPtwg.png 720w, https://miro.medium.com/v2/resize:fit:750/1*nfUexI=
+XcqoIaDUFLYcPtwg.png 750w, https://miro.medium.com/v2/resize:fit:786/1*nfUe=
+xIXcqoIaDUFLYcPtwg.png 786w, https://miro.medium.com/v2/resize:fit:828/1*nf=
+UexIXcqoIaDUFLYcPtwg.png 828w, https://miro.medium.com/v2/resize:fit:1100/1=
+*nfUexIXcqoIaDUFLYcPtwg.png 1100w, https://miro.medium.com/v2/resize:fit:14=
+00/1*nfUexIXcqoIaDUFLYcPtwg.png 1400w" sizes=3D"(min-resolution: 4dppx) and=
+ (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-widt=
+h: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webk=
+it-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution:=
+ 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5=
+) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700p=
+x) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw,=
+ 700px"><img alt=3D"" class=3D"bg lr oj c" width=3D"700" height=3D"631" loa=
+ding=3D"lazy" role=3D"presentation"></picture></div></div></figure><p id=3D=
+"6090" class=3D"pw-post-body-paragraph mk ml gv mm b mn mo mp mq mr ms mt m=
+u mv mw mx my mz na nb nc nd ne nf ng nh go bj">So, can we say that with th=
+e use of sparse vectors is sufficient for multiple recall, while full-text =
+search is no longer necessary? Let=E2=80=99s take a look at the most repres=
+entative sparse Embedding model, SPLADE:</p><p id=3D"3eaa" class=3D"pw-post=
+-body-paragraph mk ml gv mm b mn mo mp mq mr ms mt mu mv mw mx my mz na nb =
+nc nd ne nf ng nh go bj">SPLADE and similar works are the results of the co=
+ntinuous evolution of research in the field of information retrieval over t=
+he past decade. It is developed as follows: Firstly, a pre-trained language=
+ model such as BERT is used for warm start, two loss functions are added to=
+ the network, one is Ranking Loss used for ranking, and the other is a Regu=
+larization Loss to ensure sparsity, aiming to learn the weights for each wo=
+rd and words that can be used for expansion (akin to synonyms). SPLADE is t=
+rained using the Microsoft MSMARCO dataset, where the data is organized int=
+o =E2=80=9Cquestion: answer lists=E2=80=9D using traditional search engine =
+recall methods like BM25, and then manually annotated to prioritize more re=
+levant answers at the top, totaling hundreds of thousands of such question-=
+answer pairs. Therefore, we can observe the following:</p><ol class=3D""><l=
+i id=3D"f37d" class=3D"mk ml gv mm b mn mo mp mq mr ms mt mu mv mw mx my mz=
+ na nb nc nd ne nf ng nh ol om on bj">SPLADE is a pre-trained model that ut=
+ilizes existing language models trained on manually labeled search/sorting =
+data to achieve the final results. Hence, on this data, SPLADE is definitel=
+y more effective than simple BM25.</li><li id=3D"80e7" class=3D"mk ml gv mm=
+ b mn oo mp mq mr op mt mu mv oq mx my mz or nb nc nd os nf ng nh ol om on =
+bj">However, we cannot conclude that SPLADE performs well in all tasks beca=
+use in most cases, a company=E2=80=99s own data domain is different from th=
+e data used to train SPLADE. Even though the data used to train SPLADE is g=
+eneric, its generality is not extensive enough to cover all scenarios, give=
+n that this data is merely a dataset for academic research evaluation.</li>=
+<li id=3D"b86e" class=3D"mk ml gv mm b mn oo mp mq mr op mt mu mv oq mx my =
+mz or nb nc nd os nf ng nh ol om on bj">A good practice is for each company=
+ to use SPLADE in combination with their own data to train a proprietary sp=
+arse Embedding model. However, this approach presents two challenges: first=
+ly, it significantly raises the complexity and cost of applying the RAG mod=
+el to the company; secondly, acquiring training data is much harder than te=
+chnical challenges.</li></ol><p id=3D"14b9" class=3D"pw-post-body-paragraph=
+ mk ml gv mm b mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd ne nf ng =
+nh go bj">In fact, when we mention full-text search within multiple recall,=
+ it is not simply a matter of using BM25 and being done with it. The follow=
+ing aspects are essential in specific recalls:</p><ol class=3D""><li id=3D"=
+cfc2" class=3D"mk ml gv mm b mn mo mp mq mr ms mt mu mv mw mx my mz na nb n=
+c nd ne nf ng nh ol om on bj">Industry specific dictionaries as well as ind=
+ustry-based query expansion. The weights of words vary in different context=
+s; for example, the weights of words in finance differ from those in law. J=
+ust as having Elasticsearch does not automatically mean the search results =
+are good.</li><li id=3D"19a8" class=3D"mk ml gv mm b mn oo mp mq mr op mt m=
+u mv oq mx my mz or nb nc nd os nf ng nh ol om on bj">Recall and ranking ar=
+e tasks that require customization, especially in the case of enterprise sc=
+enarios. For instance: The weights for different business fields will defin=
+itely be different, and these weights need to be defined flexibly; there ar=
+e many special recall rules that need to be processed, such as wildcards an=
+d prefix queries, edit distance queries, phrase queries, and so on, each of=
+ which is required at different times. Some may say that the syntax for the=
+se queries is quite complex, doesn=E2=80=99t it increase user=E2=80=99s usa=
+ge costs? Indeed, but in the implementation of an RAG system, these tasks a=
+re handled by the middleware of RAG, where users only need to ask questions=
+ in natural language, and the middleware converts these questions into quer=
+y conditions that fit the intent. The database itself needs to provide as m=
+uch customizability as possible to meet the diverse business scenarios.</li=
+></ol><p id=3D"51e6" class=3D"pw-post-body-paragraph mk ml gv mm b mn mo mp=
+ mq mr ms mt mu mv mw mx my mz na nb nc nd ne nf ng nh go bj">In the field =
+of information retrieval and search engines, utilizing Embedding for recall=
+ has been around for many years, and these Embeddings are obtained through =
+the Learning to Rank (LTR) sorting learning mechanism. Therefore, for opera=
+ting a search engine oriented towards consumers, receiving sufficient user =
+feedback, coupled with adequate manual annotation, to generate datasets tai=
+lored to the company=E2=80=99s needs is the best choice for improving servi=
+ce quality. However, even so, any search and conversation scenario aimed at=
+ consumer users combines various methods to produce results, including base=
+d on inverted indexes, page weights, sparse vectors, dense vectors, etc., a=
+nd in the final Reranker re-ranking stage, similar mechanisms are employed =
+to train a good enough sorting model to obtain the final ranking results. I=
+n enterprise scenarios, obtaining such data can be very challenging; the ge=
+neralizability of Embedding models has not yet reached a sufficiently inclu=
+sive level. Therefore, the flexibility and customizability of the database =
+itself will be crucial. Successfully implementing the database in the RAG s=
+cenario is not as simple as deploying a traditional database and handing it=
+ over to a Database Administrator (DBA). In RAG, there is no DBA; the appli=
+cation of data to specific scenarios and enterprises is both complex and of=
+ high value.</p><p id=3D"0053" class=3D"pw-post-body-paragraph mk ml gv mm =
+b mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd ne nf ng nh go bj">Ret=
+urning to the title, Sparse Embedding or BM25? In fact, it is not a matter =
+of choosing one over the other; the answer is clear, both are essential, an=
+d on their own, they are still not enough.</p><p id=3D"1505" class=3D"pw-po=
+st-body-paragraph mk ml gv mm b mn mo mp mq mr ms mt mu mv mw mx my mz na n=
+b nc nd ne nf ng nh go bj">Stay tuned with <a class=3D"af ni" href=3D"https=
+://github.com/infiniflow/infinity/" rel=3D"noopener ugc nofollow" target=3D=
+"_blank">Infinity</a>; we will continue advancing the open-source nature of=
+ databases and further implementing RAG in every enterprise.</p><h1 id=3D"5=
+eda" class=3D"ot nw gv be ou ov ow ox oy oz pa pb pc pd pe pf pg ph pi pj p=
+k pl pm pn po pp bj">References:</h1><ol class=3D""><li id=3D"63dc" class=
+=3D"mk ml gv mm b mn pq mp mq mr pr mt mu mv ps mx my mz pt nb nc nd pu nf =
+ng nh ol om on bj"><a class=3D"af ni" href=3D"https://qdrant.tech/articles/=
+sparse-vectors/" rel=3D"noopener ugc nofollow" target=3D"_blank">https://qd=
+rant.tech/articles/sparse-vectors/</a></li><li id=3D"bfb0" class=3D"mk ml g=
+v mm b mn oo mp mq mr op mt mu mv oq mx my mz or nb nc nd os nf ng nh ol om=
+ on bj"><a class=3D"af ni" href=3D"https://www.pinecone.io/learn/splade/" r=
+el=3D"noopener ugc nofollow" target=3D"_blank">https://www.pinecone.io/lear=
+n/splade/</a></li><li id=3D"aeb6" class=3D"mk ml gv mm b mn oo mp mq mr op =
+mt mu mv oq mx my mz or nb nc nd os nf ng nh ol om on bj"><a class=3D"af ni=
+" href=3D"https://weaviate.io/blog/hybrid-search-explained" rel=3D"noopener=
+ ugc nofollow" target=3D"_blank">https://weaviate.io/blog/hybrid-search-exp=
+lained</a></li><li id=3D"d6c0" class=3D"mk ml gv mm b mn oo mp mq mr op mt =
+mu mv oq mx my mz or nb nc nd os nf ng nh ol om on bj">SPLADE v2: Sparse Le=
+xical and Expansion Model for Information Retrieval, <a class=3D"af ni" hre=
+f=3D"https://arxiv.org/abs/2109.10086" rel=3D"noopener ugc nofollow" target=
+=3D"_blank">https://arxiv.org/abs/2109.10086</a>, 2021</li></ol></div></div=
+></div></div></section></div></div></article></div><div class=3D"ab ca"><di=
+v class=3D"ch bg ga gb gc gd"><div class=3D"pv pw ab iy"><div class=3D"px a=
+b"><a class=3D"py ai am ao" rel=3D"noopener follow" href=3D"https://medium.=
+com/tag/artificial-intelligence?source=3Dpost_page-----84c942b3eda7--------=
+-------------------------------"><div class=3D"pz fk cw qa gf qb qc be b bf=
+ z bj qd">Artificial Intelligence</div></a></div><div class=3D"px ab"><a cl=
+ass=3D"py ai am ao" rel=3D"noopener follow" href=3D"https://medium.com/tag/=
+vector-database?source=3Dpost_page-----84c942b3eda7------------------------=
+---------------"><div class=3D"pz fk cw qa gf qb qc be b bf z bj qd">Vector=
+ Database</div></a></div><div class=3D"px ab"><a class=3D"py ai am ao" rel=
+=3D"noopener follow" href=3D"https://medium.com/tag/vector-search?source=3D=
+post_page-----84c942b3eda7---------------------------------------"><div cla=
+ss=3D"pz fk cw qa gf qb qc be b bf z bj qd">Vector Search</div></a></div><d=
+iv class=3D"px ab"><a class=3D"py ai am ao" rel=3D"noopener follow" href=3D=
+"https://medium.com/tag/retrieval-augmented?source=3Dpost_page-----84c942b3=
+eda7---------------------------------------"><div class=3D"pz fk cw qa gf q=
+b qc be b bf z bj qd">Retrieval Augmented</div></a></div><div class=3D"px a=
+b"><a class=3D"py ai am ao" rel=3D"noopener follow" href=3D"https://medium.=
+com/tag/llm?source=3Dpost_page-----84c942b3eda7----------------------------=
+-----------"><div class=3D"pz fk cw qa gf qb qc be b bf z bj qd">Llm</div><=
+/a></div></div></div></div><div class=3D"l"></div><footer class=3D"qe qf qg=
+ qh qi ab q qj qk c"><div class=3D"l ae"><div class=3D"ab ca"><div class=3D=
+"ch bg ga gb gc gd"><div class=3D"ab co ql"><div class=3D"ab q kh"><div cla=
+ss=3D"qm l"><span class=3D"l qn qo qp e d"><div class=3D"ab q kh ki"><div c=
+lass=3D"pw-multi-vote-icon fk kj kk kl km"><span><a class=3D"af ag ah fg aj=
+ ak al am an ao ap aq ar as at" data-testid=3D"footerClapButton" rel=3D"noo=
+pener follow" href=3D"https://medium.com/m/signin?actionUrl=3Dhttps%3A%2F%2=
+Fmedium.com%2F_%2Fvote%2Fp%2F84c942b3eda7&amp;operation=3Dregister&amp;redi=
+rect=3Dhttps%3A%2F%2Fmedium.com%2F%40infiniflowai%2Fsparse-embedding-or-bm2=
+5-84c942b3eda7&amp;user=3DInfiniFlow&amp;userId=3D7dacef0a514f&amp;source=
+=3D---footer_actions--84c942b3eda7---------------------clap_footer---------=
+---------"><div><div class=3D"bl" aria-hidden=3D"false"><div class=3D"kn ao=
+ ko kp kq kr am ks kt ku km"><svg xmlns=3D"http://www.w3.org/2000/svg" widt=
+h=3D"24" height=3D"24" viewBox=3D"0 0 24 24" aria-label=3D"clap"><path fill=
+-rule=3D"evenodd" d=3D"M11.37.828 12 3.282l.63-2.454zM13.916 3.953l1.523-2.=
+112-1.184-.39zM8.589 1.84l1.522 2.112-.337-2.501zM18.523 18.92c-.86.86-1.75=
+ 1.246-2.62 1.33a6 6 0 0 0 .407-.372c2.388-2.389 2.86-4.951 1.399-7.623l-.9=
+12-1.603-.79-1.672c-.26-.56-.194-.98.203-1.288a.7.7 0 0 1 .546-.132c.283.04=
+6.546.231.728.5l2.363 4.157c.976 1.624 1.141 4.237-1.324 6.702m-10.999-.438=
+L3.37 14.328a.828.828 0 0 1 .585-1.408.83.83 0 0 1 .585.242l2.158 2.157a.36=
+5.365 0 0 0 .516-.516l-2.157-2.158-1.449-1.449a.826.826 0 0 1 1.167-1.17l3.=
+438 3.44a.363.363 0 0 0 .516 0 .364.364 0 0 0 0-.516L5.293 9.513l-.97-.97a.=
+826.826 0 0 1 0-1.166.84.84 0 0 1 1.167 0l.97.968 3.437 3.436a.36.36 0 0 0 =
+.517 0 .366.366 0 0 0 0-.516L6.977 7.83a.82.82 0 0 1-.241-.584.82.82 0 0 1 =
+.824-.826c.219 0 .43.087.584.242l5.787 5.787a.366.366 0 0 0 .587-.415l-1.11=
+7-2.363c-.26-.56-.194-.98.204-1.289a.7.7 0 0 1 .546-.132c.283.046.545.232.7=
+27.501l2.193 3.86c1.302 2.38.883 4.59-1.277 6.75-1.156 1.156-2.602 1.627-4.=
+19 1.367-1.418-.236-2.866-1.033-4.079-2.246M10.75 5.971l2.12 2.12c-.41.502-=
+.465 1.17-.128 1.89l.22.465-3.523-3.523a.8.8 0 0 1-.097-.368c0-.22.086-.428=
+.241-.584a.847.847 0 0 1 1.167 0m7.355 1.705c-.31-.461-.746-.758-1.23-.837a=
+1.44 1.44 0 0 0-1.11.275c-.312.24-.505.543-.59.881a1.74 1.74 0 0 0-.906-.46=
+5 1.47 1.47 0 0 0-.82.106l-2.182-2.182a1.56 1.56 0 0 0-2.2 0 1.54 1.54 0 0 =
+0-.396.701 1.56 1.56 0 0 0-2.21-.01 1.55 1.55 0 0 0-.416.753c-.624-.624-1.6=
+49-.624-2.237-.037a1.557 1.557 0 0 0 0 2.2c-.239.1-.501.238-.715.453a1.56 1=
+.56 0 0 0 0 2.2l.516.515a1.556 1.556 0 0 0-.753 2.615L7.01 19c1.32 1.319 2.=
+909 2.189 4.475 2.449q.482.08.971.08c.85 0 1.653-.198 2.393-.579.231.033.46=
+.054.686.054 1.266 0 2.457-.52 3.505-1.567 2.763-2.763 2.552-5.734 1.439-7.=
+586z" clip-rule=3D"evenodd"></path></svg></div></div></div></a></span></div=
+><div class=3D"pw-multi-vote-count l kv kw kx ky kz la lb"><p class=3D"be b=
+ du z dt"><span class=3D"lc">--</span></p></div></div></span><span class=3D=
+"l h g f qq qr"><div class=3D"ab q kh ki"><div class=3D"pw-multi-vote-icon =
+fk kj kk kl km"><span><a class=3D"af ag ah fg aj ak al am an ao ap aq ar as=
+ at" data-testid=3D"footerClapButton" rel=3D"noopener follow" href=3D"https=
+://medium.com/m/signin?actionUrl=3Dhttps%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%=
+2F84c942b3eda7&amp;operation=3Dregister&amp;redirect=3Dhttps%3A%2F%2Fmedium=
+.com%2F%40infiniflowai%2Fsparse-embedding-or-bm25-84c942b3eda7&amp;user=3DI=
+nfiniFlow&amp;userId=3D7dacef0a514f&amp;source=3D---footer_actions--84c942b=
+3eda7---------------------clap_footer------------------"><div><div class=3D=
+"bl" aria-hidden=3D"false"><div class=3D"kn ao ko kp kq kr am ks kt ku km">=
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" height=3D"24" viewBo=
+x=3D"0 0 24 24" aria-label=3D"clap"><path fill-rule=3D"evenodd" d=3D"M11.37=
+.828 12 3.282l.63-2.454zM13.916 3.953l1.523-2.112-1.184-.39zM8.589 1.84l1.5=
+22 2.112-.337-2.501zM18.523 18.92c-.86.86-1.75 1.246-2.62 1.33a6 6 0 0 0 .4=
+07-.372c2.388-2.389 2.86-4.951 1.399-7.623l-.912-1.603-.79-1.672c-.26-.56-.=
+194-.98.203-1.288a.7.7 0 0 1 .546-.132c.283.046.546.231.728.5l2.363 4.157c.=
+976 1.624 1.141 4.237-1.324 6.702m-10.999-.438L3.37 14.328a.828.828 0 0 1 .=
+585-1.408.83.83 0 0 1 .585.242l2.158 2.157a.365.365 0 0 0 .516-.516l-2.157-=
+2.158-1.449-1.449a.826.826 0 0 1 1.167-1.17l3.438 3.44a.363.363 0 0 0 .516 =
+0 .364.364 0 0 0 0-.516L5.293 9.513l-.97-.97a.826.826 0 0 1 0-1.166.84.84 0=
+ 0 1 1.167 0l.97.968 3.437 3.436a.36.36 0 0 0 .517 0 .366.366 0 0 0 0-.516L=
+6.977 7.83a.82.82 0 0 1-.241-.584.82.82 0 0 1 .824-.826c.219 0 .43.087.584.=
+242l5.787 5.787a.366.366 0 0 0 .587-.415l-1.117-2.363c-.26-.56-.194-.98.204=
+-1.289a.7.7 0 0 1 .546-.132c.283.046.545.232.727.501l2.193 3.86c1.302 2.38.=
+883 4.59-1.277 6.75-1.156 1.156-2.602 1.627-4.19 1.367-1.418-.236-2.866-1.0=
+33-4.079-2.246M10.75 5.971l2.12 2.12c-.41.502-.465 1.17-.128 1.89l.22.465-3=
+.523-3.523a.8.8 0 0 1-.097-.368c0-.22.086-.428.241-.584a.847.847 0 0 1 1.16=
+7 0m7.355 1.705c-.31-.461-.746-.758-1.23-.837a1.44 1.44 0 0 0-1.11.275c-.31=
+2.24-.505.543-.59.881a1.74 1.74 0 0 0-.906-.465 1.47 1.47 0 0 0-.82.106l-2.=
+182-2.182a1.56 1.56 0 0 0-2.2 0 1.54 1.54 0 0 0-.396.701 1.56 1.56 0 0 0-2.=
+21-.01 1.55 1.55 0 0 0-.416.753c-.624-.624-1.649-.624-2.237-.037a1.557 1.55=
+7 0 0 0 0 2.2c-.239.1-.501.238-.715.453a1.56 1.56 0 0 0 0 2.2l.516.515a1.55=
+6 1.556 0 0 0-.753 2.615L7.01 19c1.32 1.319 2.909 2.189 4.475 2.449q.482.08=
+.971.08c.85 0 1.653-.198 2.393-.579.231.033.46.054.686.054 1.266 0 2.457-.5=
+2 3.505-1.567 2.763-2.763 2.552-5.734 1.439-7.586z" clip-rule=3D"evenodd"><=
+/path></svg></div></div></div></a></span></div><div class=3D"pw-multi-vote-=
+count l kv kw kx ky kz la lb"><p class=3D"be b du z dt"><span class=3D"lc">=
+--</span></p></div></div></span></div><div class=3D"ax ab"><div><div class=
+=3D"bl" aria-hidden=3D"false"><button class=3D"ao kn lf lg ab q fl lh li" a=
+ria-label=3D"responses"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"=
+24" height=3D"24" viewBox=3D"0 0 24 24" class=3D"le"><path d=3D"M18.006 16.=
+803c1.533-1.456 2.234-3.325 2.234-5.321C20.24 7.357 16.709 4 12.191 4S4 7.3=
+57 4 11.482c0 4.126 3.674 7.482 8.191 7.482.817 0 1.622-.111 2.393-.327.231=
+.2.48.391.744.559 1.06.693 2.203 1.044 3.399 1.044.224-.008.4-.112.486-.287=
+a.49.49 0 0 0-.042-.518c-.495-.67-.845-1.364-1.04-2.057a4 4 0 0 1-.125-.598=
+zm-3.122 1.055-.067-.223-.315.096a8 8 0 0 1-2.311.338c-4.023 0-7.292-2.955-=
+7.292-6.587 0-3.633 3.269-6.588 7.292-6.588 4.014 0 7.112 2.958 7.112 6.593=
+ 0 1.794-.608 3.469-2.027 4.72l-.195.168v.255c0 .056 0 .151.016.295.025.231=
+.081.478.154.733.154.558.398 1.117.722 1.659a5.3 5.3 0 0 1-2.165-.845c-.276=
+-.176-.714-.383-.941-.59z"></path></svg><p class=3D"be b bf z dt"><span cla=
+ss=3D"pw-responses-count ld le">1</span></p></button></div></div></div></di=
+v><div class=3D"ab q"><div class=3D"qs l qt"><div><div class=3D"bl" aria-hi=
+dden=3D"false"><span><a class=3D"af ag ah fg aj ak al am an ao ap aq ar as =
+at" data-testid=3D"footerBookmarkButton" rel=3D"noopener follow" href=3D"ht=
+tps://medium.com/m/signin?actionUrl=3Dhttps%3A%2F%2Fmedium.com%2F_%2Fbookma=
+rk%2Fp%2F84c942b3eda7&amp;operation=3Dregister&amp;redirect=3Dhttps%3A%2F%2=
+Fmedium.com%2F%40infiniflowai%2Fsparse-embedding-or-bm25-84c942b3eda7&amp;s=
+ource=3D---footer_actions--84c942b3eda7---------------------bookmark_footer=
+------------------"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"25" =
+height=3D"25" fill=3D"none" viewBox=3D"0 0 25 25" class=3D"dt lk" aria-labe=
+l=3D"Add to list bookmark button"><path fill=3D"currentColor" d=3D"M18 2.5a=
+.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1=
+ 0-1H18zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0=
+ .805.396L12.5 17l5.695 4.396A.5.5 0 0 0 19 21v-8.5a.5.5 0 0 0-1 0v7.485l-5=
+.195-4.012a.5.5 0 0 0-.61 0L7 19.985z"></path></svg></a></span></div></div>=
+</div><div class=3D"qs l qt"><div class=3D"bl" aria-hidden=3D"false" aria-d=
+escribedby=3D"postFooterSocialMenu" aria-labelledby=3D"postFooterSocialMenu=
+"><div><div class=3D"bl" aria-hidden=3D"false"><button aria-controls=3D"pos=
+tFooterSocialMenu" aria-expanded=3D"false" aria-label=3D"Share Post" data-t=
+estid=3D"footerSocialShareButton" class=3D"af fl ah fg aj ak al ls an ao ap=
+ ew lt lu li lv"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"24" hei=
+ght=3D"24" fill=3D"none" viewBox=3D"0 0 24 24"><path fill=3D"currentColor" =
+fill-rule=3D"evenodd" d=3D"M15.218 4.931a.4.4 0 0 1-.118.132l.012.006a.45.4=
+5 0 0 1-.292.074.5.5 0 0 1-.3-.13l-2.02-2.02v7.07c0 .28-.23.5-.5.5s-.5-.22-=
+.5-.5v-7.04l-2 2a.45.45 0 0 1-.57.04h-.02a.4.4 0 0 1-.16-.3.4.4 0 0 1 .1-.3=
+2l2.8-2.8a.5.5 0 0 1 .7 0l2.8 2.79a.42.42 0 0 1 .068.498m-.106.138.008.004v=
+-.01zM16 7.063h1.5a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-11c-1.1 0-2-.9-2-2v-10a2=
+ 2 0 0 1 2-2H8a.5.5 0 0 1 .35.15.5.5 0 0 1 .15.35.5.5 0 0 1-.15.35.5.5 0 0 =
+1-.35.15H6.4c-.5 0-.9.4-.9.9v10.2a.9.9 0 0 0 .9.9h11.2c.5 0 .9-.4.9-.9v-10.=
+2c0-.5-.4-.9-.9-.9H16a.5.5 0 0 1 0-1" clip-rule=3D"evenodd"></path></svg></=
+button></div></div></div></div></div></div></div></div></div></footer><div =
+class=3D"qu l"><div class=3D"ab ca"><div class=3D"ch bg ga gb gc gd"><div c=
+lass=3D"ab if id ib qv qw"><div class=3D"qx qy qz ra rb rc rd re rf rg ab c=
+o"><div class=3D"h k"><a tabindex=3D"0" rel=3D"noopener follow" href=3D"htt=
+ps://medium.com/@infiniflowai?source=3Dpost_page---post_author_info--84c942=
+b3eda7---------------------------------------"><div class=3D"l fk"><img alt=
+=3D"InfiniFlow" class=3D"l fc bw rh ri cw" src=3D"https://miro.medium.com/v=
+2/resize:fill:96:96/1*ux7TZyv2WDGdMbv6kCjWiQ.png" width=3D"48" height=3D"48=
+" loading=3D"lazy"><div class=3D"fs bw l rh ri ft n ai rj"></div></div></a>=
+</div><div class=3D"j i d"><a tabindex=3D"0" rel=3D"noopener follow" href=
+=3D"https://medium.com/@infiniflowai?source=3Dpost_page---post_author_info-=
+-84c942b3eda7---------------------------------------"><div class=3D"l fk"><=
+img alt=3D"InfiniFlow" class=3D"l fc bw rk rl cw" src=3D"https://miro.mediu=
+m.com/v2/resize:fill:128:128/1*ux7TZyv2WDGdMbv6kCjWiQ.png" width=3D"64" hei=
+ght=3D"64" loading=3D"lazy"><div class=3D"fs bw l rk rl ft n ai rj"></div><=
+/div></a></div><div class=3D"j i d rm qt"><div class=3D"ab"><div class=3D"b=
+l" aria-hidden=3D"false"><div class=3D"bl"><button style=3D"border:1px soli=
+d rgba(0, 0, 0, 0)" class=3D"is it ao ab ca q ap ew rn kg ro"><span class=
+=3D"be b bf z bj"><span class=3D"l ix">Follow</span></span></button></div><=
+/div></div></div></div><div class=3D"ab cn bz"><div class=3D"rp rq rr rs rt=
+ l"><a class=3D"af ag ah aj ak al am an ao ap aq ar as at ab q" rel=3D"noop=
+ener follow" href=3D"https://medium.com/@infiniflowai?source=3Dpost_page---=
+post_author_info--84c942b3eda7---------------------------------------"><h2 =
+class=3D"pw-author-name be rv rw rx ry rz sa sb mv sc sd mz se sf nd sg sh =
+bj"><span class=3D"go ru">Written by <!-- -->InfiniFlow</span></h2></a><div=
+ class=3D"px ab ih"><div class=3D"l qt"><span class=3D"pw-follower-count be=
+ b bf z dt"><a class=3D"af ag ah fg aj ak al am an ao ap aq ar iq" rel=3D"n=
+oopener follow" href=3D"https://medium.com/@infiniflowai/followers?source=
+=3Dpost_page---post_author_info--84c942b3eda7------------------------------=
+---------">302 followers</a></span></div><div class=3D"be b bf z dt ab si">=
+<span class=3D"sj l" aria-hidden=3D"true"><span class=3D"be b bf z dt">=C2=
+=B7</span></span><a class=3D"af ag ah fg aj ak al am an ao ap aq ar iq" rel=
+=3D"noopener follow" href=3D"https://medium.com/@infiniflowai/following?sou=
+rce=3Dpost_page---post_author_info--84c942b3eda7---------------------------=
+------------">0 following</a></div></div><div class=3D"sk l"><p class=3D"be=
+ b bf z bj"><a class=3D"af ag ah fg aj ak al am an ao ap aq ar ni gp go" hr=
+ef=3D"https://github.com/infiniflow/" rel=3D"noopener  ugc nofollow">https:=
+//github.com/infiniflow/</a></p></div></div></div><div class=3D"h k"><div c=
+lass=3D"ab"><div class=3D"bl" aria-hidden=3D"false"><div class=3D"bl"><butt=
+on style=3D"border:1px solid rgba(0, 0, 0, 0)" class=3D"is it ao ab ca q ap=
+ ew rn kg ro"><span class=3D"be b bf z bj"><span class=3D"l ix">Follow</spa=
+n></span></button></div></div></div></div></div></div></div></div><div clas=
+s=3D"sl sm sn so sp l"><div class=3D"sq bg r qu"></div><div class=3D"ab ca"=
+><div class=3D"ch bg ga gb gc gd"><div class=3D"ab q co"><h2 class=3D"be rv=
+ ov ox oy oz pb pc pd pf pg ph pj pk pl pn po bj">Responses (<!-- -->1<!-- =
+-->)</h2><div class=3D"ab sr"><div><div class=3D"bl" aria-hidden=3D"false">=
+<a class=3D"ss st" href=3D"https://policy.medium.com/medium-rules-30e5502c4=
+eb4?source=3Dpost_page---post_responses--84c942b3eda7----------------------=
+-----------------" rel=3D"noopener follow" target=3D"_blank"><svg xmlns=3D"=
+http://www.w3.org/2000/svg" width=3D"25" height=3D"25" viewBox=3D"0 0 25 25=
+"><path fill-rule=3D"evenodd" d=3D"M11.987 5.036a.754.754 0 0 1 .914-.01c.9=
+72.721 1.767 1.218 2.6 1.543.828.322 1.719.485 2.887.505a.755.755 0 0 1 .74=
+1.757c-.018 3.623-.43 6.256-1.449 8.21-1.034 1.984-2.662 3.209-4.966 4.083a=
+.75.75 0 0 1-.537-.003c-2.243-.874-3.858-2.095-4.897-4.074-1.024-1.951-1.45=
+7-4.583-1.476-8.216a.755.755 0 0 1 .741-.757c1.195-.02 2.1-.182 2.923-.503.=
+827-.322 1.6-.815 2.519-1.535m.468.903c-.897.69-1.717 1.21-2.623 1.564-.898=
+.35-1.856.527-3.026.565.037 3.45.469 5.817 1.36 7.515.884 1.684 2.25 2.762 =
+4.284 3.571 2.092-.81 3.465-1.89 4.344-3.575.886-1.698 1.299-4.065 1.334-7.=
+512-1.149-.039-2.091-.217-2.99-.567-.906-.353-1.745-.873-2.683-1.561m-.009 =
+9.155a2.672 2.672 0 1 0 0-5.344 2.672 2.672 0 0 0 0 5.344m0 1a3.672 3.672 0=
+ 1 0 0-7.344 3.672 3.672 0 0 0 0 7.344m-1.813-3.777.525-.526.916.917 1.623-=
+1.625.526.526-2.149 2.152z" clip-rule=3D"evenodd"></path></svg></a></div></=
+div></div></div><div class=3D"su sv sw sx sy sz ta l"></div><div class=3D"t=
+b l"><button class=3D"be b bf z bj pz tc is td lk lh te eu ev ew tf tg th e=
+z ti tj tk tl tm fa fb fc bl fd fe">See all responses</button></div></div><=
+/div></div><div class=3D"tn to tp tq tr l bv"><div class=3D"h k j"><div cla=
+ss=3D"sq bg ts tt"></div><div class=3D"ab ca"><div class=3D"ch bg ga gb gc =
+gd"><div class=3D"tu ab kh iy"><div class=3D"tv tw l"><a class=3D"af ag ah =
+fg aj ak al am an ao ap aq ar as at" href=3D"https://help.medium.com/hc/en-=
+us?source=3Dpost_page-----84c942b3eda7-------------------------------------=
+--" rel=3D"noopener follow"><p class=3D"be b du z dt">Help</p></a></div><di=
+v class=3D"tv tw l"><a class=3D"af ag ah fg aj ak al am an ao ap aq ar as a=
+t" href=3D"https://medium.statuspage.io/?source=3Dpost_page-----84c942b3eda=
+7---------------------------------------" rel=3D"noopener follow"><p class=
+=3D"be b du z dt">Status</p></a></div><div class=3D"tv tw l"><a class=3D"af=
+ ag ah fg aj ak al am an ao ap aq ar as at" rel=3D"noopener follow" href=3D=
+"https://medium.com/about?autoplay=3D1&amp;source=3Dpost_page-----84c942b3e=
+da7---------------------------------------"><p class=3D"be b du z dt">About=
+</p></a></div><div class=3D"tv tw l"><a class=3D"af ag ah fg aj ak al am an=
+ ao ap aq ar as at" rel=3D"noopener follow" href=3D"https://medium.com/jobs=
+-at-medium/work-at-medium-959d1a85284e?source=3Dpost_page-----84c942b3eda7-=
+--------------------------------------"><p class=3D"be b du z dt">Careers</=
+p></a></div><div class=3D"tv tw l"><a class=3D"af ag ah fg aj ak al am an a=
+o ap aq ar as at" href=3D"mailto:pressinquiries@medium.com" rel=3D"noopener=
+ follow"><p class=3D"be b du z dt">Press</p></a></div><div class=3D"tv tw l=
+"><a class=3D"af ag ah fg aj ak al am an ao ap aq ar as at" href=3D"https:/=
+/blog.medium.com/?source=3Dpost_page-----84c942b3eda7----------------------=
+-----------------" rel=3D"noopener follow"><p class=3D"be b du z dt">Blog</=
+p></a></div><div class=3D"tv tw l"><a class=3D"af ag ah fg aj ak al am an a=
+o ap aq ar as at" href=3D"https://policy.medium.com/medium-privacy-policy-f=
+03bf92035c9?source=3Dpost_page-----84c942b3eda7----------------------------=
+-----------" rel=3D"noopener follow"><p class=3D"be b du z dt">Privacy</p><=
+/a></div><div class=3D"tv tw l"><a class=3D"af ag ah fg aj ak al am an ao a=
+p aq ar as at" href=3D"https://policy.medium.com/medium-rules-30e5502c4eb4?=
+source=3Dpost_page-----84c942b3eda7---------------------------------------"=
+ rel=3D"noopener follow"><p class=3D"be b du z dt">Rules</p></a></div><div =
+class=3D"tv tw l"><a class=3D"af ag ah fg aj ak al am an ao ap aq ar as at"=
+ href=3D"https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?sou=
+rce=3Dpost_page-----84c942b3eda7---------------------------------------" re=
+l=3D"noopener follow"><p class=3D"be b du z dt">Terms</p></a></div><div cla=
+ss=3D"tv l"><a class=3D"af ag ah fg aj ak al am an ao ap aq ar as at" href=
+=3D"https://speechify.com/medium?source=3Dpost_page-----84c942b3eda7-------=
+--------------------------------" rel=3D"noopener follow"><p class=3D"be b =
+du z dt">Text to speech</p></a></div></div></div></div></div></div></div></=
+div></div></div></div></div></body></html>
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://miro.medium.com/v2/resize:fill:64:64/1*ux7TZyv2WDGdMbv6kCjWiQ.png
+
+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
+gg==
+
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png
+
+iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE
+0ElEQVR4nO1abW/bOAwmKcuOs75shx26Yjfg/v+/2q1FF1yX1Hb8JsnifVDSZUm6JqLXrMA9KIqi
+DcmHosQXqcjM8JpBpyYgxf8OnBqv3oHkVyj13u/+kuiXLBaOm4W89z8n+uwHjsVoDnjvERERAcBa
+0zSNMZ1zHgCShNJ0Mp1OtU5HsbWJkSNQVeViMe+6bqUdEQAeTWTZ5N27Py4uLmC8UIwYgeH29rZp
+aqUUEQXqP4KdG7z3Z2dvPnz4qJQC8PIsInfAA5Bz9suXz9a6JEn2Uf8OZnbOaZ18+vR3koyQQuRB
+JGa4ufnHuUFr/XP2AICIWmvnhpubz6PEfoRdOJvd9b05ajmTJOl7M5vdya3HOxCSfde1RVForY8V
+11qXZdG2bTSBgHgHQg6Zz+dE8OzO2UVIuYvFfTSBFY04sbD8zrm6XioVeRaVSuq6cc7FiQeIzsBy
+WQ3DELH8AYjIzMtlBQAAe7qPQxDpQNg/dV0rpeI0BCBiXdciJtG2mcGYTlhNiciYTqQhWtI569wg
+d8BaZ62FJ3rY5zVEyARL1po4k1tgZmtNtHj8+llrEYW1lAEAEUME4iDZQm6MQo6hO4qWj2EQ9v0o
++weAEUWqJFmIYwvAIxDW1SBahbQXGgWnicCIk61ElYQFiRt6BgBmEY14ScRRQoAALKmG8YUsSaRH
+OIAZJA2V5Awk0S3kBhgRXzoCAUmSMAuDsLp0kUz38YVMqedH+EMQxvxo8fgIaK2IpLcyzIyISp3C
+AaUSIiV3IEmUUgSxt7+iVKi1FtZj771k+UE41KdpJnSAmbMsk2gQReDi4hI27m6PBTMzc1ASDdFQ
+n+f5+fmZtTbKB7bWnp+f5Xkex2HFRCDrAeD6+mOeT507zgdmNsbm+fT6+i8BAYCxrtdns7uqqg7v
+CIbBnZ9fXl19kJuWNmThEF9dXRPRgQfae0+kAnv5UCF1IORu54ZhOPSKhYiGYXDOwhgvf/IIAAB0
+XcN8xFoy+/Uz1KkjENqhsiyPGg8QqSxLABC3g6JC5gEAEY0xTbM8qqdXSi2XlTFmox38lZe7fgMr
+MaJH2dnsa+jJDrcaHmRns6+7THZtPaPqqTQa5PcesmFwXde1bdv3Xdf1zP6JZ8mfgZnDS6vWaZ7n
+eT7NsmzvYLBmAnuXe48Duy+4zlljTB/49q21zvsBMcxSJMkkYaVDT0FEWussm0wmkyzL0jRNEr31
+4V1b+yPg/bBcLruu6breWuv94D0jQmCMSGNMMvudAfDMwAyIqJTSOp1M0slk+ubNWThmW27sceD+
+/t/FYuG9W9MVzazHA8N1CwCE4ITvSqm3b9+9f//n9qe3HLi9vamqMk3TUcbF4/FIZts6szfGXl5e
+bLVPPyztw8PipOwBANdfO39AStO0KMqHhwVs9CDfHfCe5/P7Q17bT4Uw/s/n97CRHr9flBfFN2Ps
+y273o0FExthv3+7hMb3C2puiKCXXGy8GrXVVlbCmveqBm6bu+/43X/4AIur7vmnC46xfMS7Lgug3
+3fq7IMKiKFY/EpH33DQ1kejJ+iVBpNq29n59Md80S2vdq9g/AeF1OewiAoCqKl8R+wAiWh1lZm6a
+RvgvDy8PImrbmpmpbVvn3G9bvJ7Cehe1VFXlq2MfgIh1Xf4HDSfHGDyXFiUAAAAASUVORK5CYII=
+
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://glyph.medium.com/css/unbound.css
+
+@charset "utf-8";
+
+@font-face { font-family: charter; font-weight: 400; font-style: italic; fo=
+nt-display: swap; src: url("https://glyph.medium.com/font/81d2bf1/0-3j_4g_5=
+3_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-400-italic.woff") format("woff");=
+ unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C,=
+ U+201D, U+2022, U+2026; }
+
+@font-face { font-family: charter; font-weight: 400; font-style: italic; fo=
+nt-display: swap; src: url("https://glyph.medium.com/font/81d2bf1/3k-4f_4h-=
+52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-400-ital=
+ic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200=
+B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; =
+}
+
+@font-face { font-family: charter; font-weight: 400; font-style: normal; fo=
+nt-display: swap; src: url("https://glyph.medium.com/font/be78681/0-3j_4g_5=
+3_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-400-normal.woff") format("woff");=
+ unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C,=
+ U+201D, U+2022, U+2026; }
+
+@font-face { font-family: charter; font-weight: 400; font-style: normal; fo=
+nt-display: swap; src: url("https://glyph.medium.com/font/be78681/3k-4f_4h-=
+52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-400-norm=
+al.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200=
+B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; =
+}
+
+@font-face { font-family: charter; font-weight: 700; font-style: italic; fo=
+nt-display: swap; src: url("https://glyph.medium.com/font/77a0c0c/0-3j_4g_5=
+3_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-700-italic.woff") format("woff");=
+ unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C,=
+ U+201D, U+2022, U+2026; }
+
+@font-face { font-family: charter; font-weight: 700; font-style: italic; fo=
+nt-display: swap; src: url("https://glyph.medium.com/font/77a0c0c/3k-4f_4h-=
+52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-700-ital=
+ic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200=
+B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; =
+}
+
+@font-face { font-family: charter; font-weight: 700; font-style: normal; fo=
+nt-display: swap; src: url("https://glyph.medium.com/font/f50d520/0-3j_4g_5=
+3_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-700-normal.woff") format("woff");=
+ unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C,=
+ U+201D, U+2022, U+2026; }
+
+@font-face { font-family: charter; font-weight: 700; font-style: normal; fo=
+nt-display: swap; src: url("https://glyph.medium.com/font/f50d520/3k-4f_4h-=
+52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-700-norm=
+al.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200=
+B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; =
+}
+
+@font-face { font-family: fell; font-weight: 400; font-style: italic; font-=
+display: swap; src: url("https://glyph.medium.com/font/415369b/0-3j_4g_53_6=
+bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/fell-400-italic.woff") format("woff"); unico=
+de-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201=
+D, U+2022, U+2026; }
+
+@font-face { font-family: fell; font-weight: 400; font-style: italic; font-=
+display: swap; src: url("https://glyph.medium.com/font/415369b/3k-4f_4h-52_=
+54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/fell-400-italic.wof=
+f") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013=
+, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: fell; font-weight: 400; font-style: normal; font-=
+display: swap; src: url("https://glyph.medium.com/font/78ce731/0-3j_4g_53_6=
+bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/fell-400-normal.woff") format("woff"); unico=
+de-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201=
+D, U+2022, U+2026; }
+
+@font-face { font-family: fell; font-weight: 400; font-style: normal; font-=
+display: swap; src: url("https://glyph.medium.com/font/78ce731/3k-4f_4h-52_=
+54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/fell-400-normal.wof=
+f") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013=
+, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: gt-super; font-weight: 400; font-style: normal; f=
+ont-display: swap; src: url("https://glyph.medium.com/font/4a44748/0-3j_4g_=
+53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/gt-super-400-normal.woff") format("woff"=
+); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201=
+C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: gt-super; font-weight: 400; font-style: normal; f=
+ont-display: swap; src: url("https://glyph.medium.com/font/4a44748/3k-4f_4h=
+-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/gt-super-400-no=
+rmal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+2=
+00B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF=
+; }
+
+@font-face { font-family: noe; font-weight: 500; font-style: normal; font-d=
+isplay: swap; src: url("https://glyph.medium.com/font/b6752aa/0-3j_4g_53_6b=
+u_6c4_6c8_6c9_6cc_6cd_6ci_6cm/noe-display-500-normal.woff") format("woff");=
+ unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C,=
+ U+201D, U+2022, U+2026; }
+
+@font-face { font-family: noe; font-weight: 500; font-style: normal; font-d=
+isplay: swap; src: url("https://glyph.medium.com/font/b6752aa/3k-4f_4h-52_5=
+4-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/noe-display-500-norm=
+al.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200=
+B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; =
+}
+
+@font-face { font-family: opendyslexic; font-weight: 400; font-style: itali=
+c; font-display: swap; src: url("https://glyph.medium.com/font/1c491fd/0-3j=
+_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/opendyslexic-400-italic.woff") forma=
+t("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+201=
+9, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: opendyslexic; font-weight: 400; font-style: itali=
+c; font-display: swap; src: url("https://glyph.medium.com/font/1c491fd/3k-4=
+f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/opendyslexi=
+c-400-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2=
+009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+202=
+7-10FFFF; }
+
+@font-face { font-family: opendyslexic; font-weight: 400; font-style: norma=
+l; font-display: swap; src: url("https://glyph.medium.com/font/0a6190b/0-3j=
+_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/opendyslexic-400-normal.woff") forma=
+t("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+201=
+9, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: opendyslexic; font-weight: 400; font-style: norma=
+l; font-display: swap; src: url("https://glyph.medium.com/font/0a6190b/3k-4=
+f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/opendyslexi=
+c-400-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2=
+009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+202=
+7-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 300; font-style: italic; font=
+-display: swap; src: url("https://glyph.medium.com/font/51a79f1/0-3j_4g_53_=
+6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-300-italic.woff") format("woff"); uni=
+code-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+2=
+01D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 300; font-style: italic; font=
+-display: swap; src: url("https://glyph.medium.com/font/51a79f1/3k-4f_4h-52=
+_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-300-italic.w=
+off") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-20=
+13, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 300; font-style: normal; font=
+-display: swap; src: url("https://glyph.medium.com/font/6fd11d6/0-3j_4g_53_=
+6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-300-normal.woff") format("woff"); uni=
+code-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+2=
+01D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 300; font-style: normal; font=
+-display: swap; src: url("https://glyph.medium.com/font/6fd11d6/3k-4f_4h-52=
+_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-300-normal.w=
+off") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-20=
+13, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 400; font-style: italic; font=
+-display: swap; src: url("https://glyph.medium.com/font/3887986/0-3j_4g_53_=
+6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-400-italic.woff") format("woff"); uni=
+code-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+2=
+01D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 400; font-style: italic; font=
+-display: swap; src: url("https://glyph.medium.com/font/3887986/3k-4f_4h-52=
+_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-400-italic.w=
+off") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-20=
+13, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 400; font-style: normal; font=
+-display: swap; src: url("https://glyph.medium.com/font/b492c44/0-3j_4g_53_=
+6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-400-normal.woff") format("woff"); uni=
+code-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+2=
+01D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 400; font-style: normal; font=
+-display: swap; src: url("https://glyph.medium.com/font/b492c44/3k-4f_4h-52=
+_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-400-normal.w=
+off") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-20=
+13, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 500; font-style: italic; font=
+-display: swap; src: url("https://glyph.medium.com/font/54b52d6/0-3j_4g_53_=
+6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-500-italic.woff") format("woff"); uni=
+code-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+2=
+01D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 500; font-style: italic; font=
+-display: swap; src: url("https://glyph.medium.com/font/54b52d6/3k-4f_4h-52=
+_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-500-italic.w=
+off") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-20=
+13, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 500; font-style: normal; font=
+-display: swap; src: url("https://glyph.medium.com/font/df9ba7f/0-3j_4g_53_=
+6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-500-normal.woff") format("woff"); uni=
+code-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+2=
+01D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 500; font-style: normal; font=
+-display: swap; src: url("https://glyph.medium.com/font/df9ba7f/3k-4f_4h-52=
+_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-500-normal.w=
+off") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-20=
+13, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 700; font-style: italic; font=
+-display: swap; src: url("https://glyph.medium.com/font/9da4d76/0-3j_4g_53_=
+6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-700-italic.woff") format("woff"); uni=
+code-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+2=
+01D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 700; font-style: italic; font=
+-display: swap; src: url("https://glyph.medium.com/font/9da4d76/3k-4f_4h-52=
+_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-700-italic.w=
+off") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-20=
+13, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 700; font-style: normal; font=
+-display: swap; src: url("https://glyph.medium.com/font/cf896f3/0-3j_4g_53_=
+6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-700-normal.woff") format("woff"); uni=
+code-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+2=
+01D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 700; font-style: normal; font=
+-display: swap; src: url("https://glyph.medium.com/font/cf896f3/3k-4f_4h-52=
+_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-700-normal.w=
+off") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-20=
+13, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: source-code-pro; font-weight: 400; font-style: it=
+alic; font-display: swap; src: url("https://glyph.medium.com/font/07894b4/0=
+-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-code-pro-400-italic.woff")=
+ format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018,=
+ U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-code-pro; font-weight: 400; font-style: it=
+alic; font-display: swap; src: url("https://glyph.medium.com/font/07894b4/3=
+k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-c=
+ode-pro-400-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, =
+U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025,=
+ U+2027-10FFFF; }
+
+@font-face { font-family: source-code-pro; font-weight: 400; font-style: no=
+rmal; font-display: swap; src: url("https://glyph.medium.com/font/3bd49b7/0=
+-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-code-pro-400-normal.woff")=
+ format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018,=
+ U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-code-pro; font-weight: 400; font-style: no=
+rmal; font-display: swap; src: url("https://glyph.medium.com/font/3bd49b7/3=
+k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-c=
+ode-pro-400-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, =
+U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025,=
+ U+2027-10FFFF; }
+
+@font-face { font-family: source-code-pro; font-weight: 700; font-style: it=
+alic; font-display: swap; src: url("https://glyph.medium.com/font/15b127a/0=
+-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-code-pro-700-italic.woff")=
+ format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018,=
+ U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-code-pro; font-weight: 700; font-style: it=
+alic; font-display: swap; src: url("https://glyph.medium.com/font/15b127a/3=
+k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-c=
+ode-pro-700-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, =
+U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025,=
+ U+2027-10FFFF; }
+
+@font-face { font-family: source-code-pro; font-weight: 700; font-style: no=
+rmal; font-display: swap; src: url("https://glyph.medium.com/font/a9cd261/0=
+-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-code-pro-700-normal.woff")=
+ format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018,=
+ U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-code-pro; font-weight: 700; font-style: no=
+rmal; font-display: swap; src: url("https://glyph.medium.com/font/a9cd261/3=
+k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-c=
+ode-pro-700-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, =
+U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025,=
+ U+2027-10FFFF; }
+
+@font-face { font-family: source-serif-pro; font-weight: 400; font-style: i=
+talic; font-display: swap; src: url("https://glyph.medium.com/font/76c214a/=
+0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-serif-pro-400-italic.woff=
+") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+201=
+8, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-serif-pro; font-weight: 400; font-style: i=
+talic; font-display: swap; src: url("https://glyph.medium.com/font/76c214a/=
+3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-=
+serif-pro-400-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6=
+, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-202=
+5, U+2027-10FFFF; }
+
+@font-face { font-family: source-serif-pro; font-weight: 400; font-style: n=
+ormal; font-display: swap; src: url("https://glyph.medium.com/font/8e059b2/=
+0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-serif-pro-400-normal.woff=
+") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+201=
+8, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-serif-pro; font-weight: 400; font-style: n=
+ormal; font-display: swap; src: url("https://glyph.medium.com/font/8e059b2/=
+3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-=
+serif-pro-400-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6=
+, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-202=
+5, U+2027-10FFFF; }
+
+@font-face { font-family: source-serif-pro; font-weight: 700; font-style: i=
+talic; font-display: swap; src: url("https://glyph.medium.com/font/7f2eb60/=
+0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-serif-pro-700-italic.woff=
+") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+201=
+8, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-serif-pro; font-weight: 700; font-style: i=
+talic; font-display: swap; src: url("https://glyph.medium.com/font/7f2eb60/=
+3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-=
+serif-pro-700-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6=
+, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-202=
+5, U+2027-10FFFF; }
+
+@font-face { font-family: source-serif-pro; font-weight: 700; font-style: n=
+ormal; font-display: swap; src: url("https://glyph.medium.com/font/b156742/=
+0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-serif-pro-700-normal.woff=
+") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+201=
+8, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-serif-pro; font-weight: 700; font-style: n=
+ormal; font-display: swap; src: url("https://glyph.medium.com/font/b156742/=
+3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-=
+serif-pro-700-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6=
+, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-202=
+5, U+2027-10FFFF; }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-36c8b9d0-313a-4386-b6df-fdb270110c97@mhtml.blink
+
+@charset "utf-8";
+
+.of { transition: transform 300ms cubic-bezier(0.2, 0, 0.2, 1); }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-784e8b1d-346d-4e96-9c12-9b63bc0208e4@mhtml.blink
+
+@charset "utf-8";
+
+.ql { display: none; }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-93f68257-e780-454d-87e1-e3e73e30f788@mhtml.blink
+
+@charset "utf-8";
+
+.k { display: none; }
+
+.u { display: flex; }
+
+.v { justify-content: space-between; }
+
+.br { width: 24px; }
+
+.cc { margin: 0px 24px; }
+
+.cr { height: 40px; }
+
+.cy { margin-bottom: 44px; }
+
+.dk { margin-bottom: 32px; }
+
+.dy { font-size: 13px; }
+
+.dz { line-height: 20px; }
+
+.eh { padding: 0px 8px 1px; }
+
+.fw { margin-bottom: 2px; }
+
+.hc { font-size: 32px; }
+
+.hd { margin-top: 1.01em; }
+
+.he { margin-bottom: 24px; }
+
+.hf { line-height: 38px; }
+
+.hg { letter-spacing: -0.014em; }
+
+.hy { align-items: flex-start; }
+
+.hz { flex-direction: column-reverse; }
+
+.jd { margin: 24px 0px 0px; }
+
+.je { padding: 0px; }
+
+.jt > * { margin-right: 8px; }
+
+.ju > :last-child { margin-right: 8px; }
+
+.kl { margin-left: 0px; }
+
+.ln { margin: 0px; }
+
+.md { border: 1px solid rgb(242, 242, 242); }
+
+.me { border-radius: 99em; }
+
+.mf { padding: 0px 16px 0px 12px; }
+
+.mg { height: 38px; }
+
+.mh { align-items: center; }
+
+.mj svg { margin-right: 8px; }
+
+.mr { font-size: 18px; }
+
+.ms { margin-top: 1.56em; }
+
+.mt { line-height: 28px; }
+
+.mu { letter-spacing: -0.003em; }
+
+.no { margin-top: 40px; }
+
+.op { margin-top: 1.34em; }
+
+.oz { font-size: 20px; }
+
+.pa { margin-top: 1.2em; }
+
+.pb { line-height: 24px; }
+
+.pc { letter-spacing: 0px; }
+
+.pr { margin-top: 0.67em; }
+
+.qv { flex-direction: column; }
+
+.rd { margin-bottom: 20px; }
+
+.re { margin-right: 0px; }
+
+.rs { max-width: 100%; }
+
+.rz { font-size: 24px; }
+
+.sa { line-height: 30px; }
+
+.sb { letter-spacing: -0.016em; }
+
+.sm { margin-bottom: 64px; }
+
+.sx { margin: 32px 0px 16px; }
+
+.tj { width: 100%; }
+
+.to { padding-top: 48px; }
+
+.mi:hover { border-color: rgb(229, 229, 229); }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-238b6c30-8aee-4c7b-8429-8832d73e86cc@mhtml.blink
+
+@charset "utf-8";
+
+.j { display: none; }
+
+.w { display: flex; }
+
+.x { justify-content: space-between; }
+
+.bs { width: 64px; }
+
+.cd { margin: 0px 48px; }
+
+.cs { height: 48px; }
+
+.cz { margin-bottom: 52px; }
+
+.dl { margin-bottom: 48px; }
+
+.ea { font-size: 13px; }
+
+.eb { line-height: 20px; }
+
+.ei { padding: 0px 8px 1px; }
+
+.fx { margin-bottom: 50px; }
+
+.gb { max-width: 680px; }
+
+.hh { font-size: 42px; }
+
+.hi { margin-top: 1.19em; }
+
+.hj { margin-bottom: 32px; }
+
+.hk { line-height: 52px; }
+
+.hl { letter-spacing: -0.011em; }
+
+.ia { align-items: center; }
+
+.ib { flex-direction: row; }
+
+.jf { border-top: 1px solid rgb(242, 242, 242); }
+
+.jg { border-bottom: 1px solid rgb(242, 242, 242); }
+
+.jh { margin: 32px 0px 0px; }
+
+.ji { padding: 3px 8px; }
+
+.jv > * { margin-right: 24px; }
+
+.jw > :last-child { margin-right: 0px; }
+
+.lo { margin: 0px; }
+
+.mv { font-size: 20px; }
+
+.mw { margin-top: 2.14em; }
+
+.mx { line-height: 32px; }
+
+.my { letter-spacing: -0.003em; }
+
+.np { margin-top: 56px; }
+
+.oq { margin-top: 1.14em; }
+
+.pd { font-size: 24px; }
+
+.pe { margin-top: 1.95em; }
+
+.pf { line-height: 30px; }
+
+.pg { letter-spacing: -0.016em; }
+
+.ps { margin-top: 0.94em; }
+
+.rb { margin-bottom: 0px; }
+
+.rc { margin-right: 20px; }
+
+.rr { max-width: 500px; }
+
+.sc { line-height: 24px; }
+
+.sd { letter-spacing: 0px; }
+
+.sn { margin-bottom: 88px; }
+
+.sy { margin: 40px 0px 16px; }
+
+.tk { }
+
+.tp { padding-top: 72px; }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6789a5be-b14e-4fa6-84ab-b00e753ed650@mhtml.blink
+
+@charset "utf-8";
+
+.i { display: none; }
+
+.bt { width: 64px; }
+
+.ce { margin: 0px 64px; }
+
+.ct { height: 48px; }
+
+.da { margin-bottom: 52px; }
+
+.dm { margin-bottom: 48px; }
+
+.ec { font-size: 14px; }
+
+.ed { line-height: 20px; }
+
+.ej { font-size: 13px; }
+
+.ek { padding: 5px 12px; }
+
+.fh { display: flex; }
+
+.fy { margin-bottom: 50px; }
+
+.gc { max-width: 680px; }
+
+.hm { font-size: 42px; }
+
+.hn { margin-top: 1.19em; }
+
+.ho { margin-bottom: 32px; }
+
+.hp { line-height: 52px; }
+
+.hq { letter-spacing: -0.011em; }
+
+.ic { align-items: center; }
+
+.id { flex-direction: row; }
+
+.jj { border-top: 1px solid rgb(242, 242, 242); }
+
+.jk { border-bottom: 1px solid rgb(242, 242, 242); }
+
+.jl { margin: 32px 0px 0px; }
+
+.jm { padding: 3px 8px; }
+
+.jx > * { margin-right: 24px; }
+
+.jy > :last-child { margin-right: 0px; }
+
+.lp { margin: 0px; }
+
+.mz { font-size: 20px; }
+
+.na { margin-top: 2.14em; }
+
+.nb { line-height: 32px; }
+
+.nc { letter-spacing: -0.003em; }
+
+.nq { margin-top: 56px; }
+
+.or { margin-top: 1.14em; }
+
+.ph { font-size: 24px; }
+
+.pi { margin-top: 1.95em; }
+
+.pj { line-height: 30px; }
+
+.pk { letter-spacing: -0.016em; }
+
+.pt { margin-top: 0.94em; }
+
+.qz { margin-bottom: 0px; }
+
+.ra { margin-right: 20px; }
+
+.rq { max-width: 500px; }
+
+.se { line-height: 24px; }
+
+.sf { letter-spacing: 0px; }
+
+.so { margin-bottom: 88px; }
+
+.sz { margin: 40px 0px 16px; }
+
+.tl { }
+
+.tq { padding-top: 72px; }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7431491a-1c42-4de9-aeb9-0d5a660a17fb@mhtml.blink
+
+@charset "utf-8";
+
+.h { display: none; }
+
+.s { display: flex; }
+
+.t { justify-content: space-between; }
+
+.bq { width: 24px; }
+
+.cb { margin: 0px 24px; }
+
+.cq { height: 40px; }
+
+.cx { margin-bottom: 44px; }
+
+.dj { margin-bottom: 32px; }
+
+.dw { font-size: 13px; }
+
+.dx { line-height: 20px; }
+
+.eg { padding: 0px 8px 1px; }
+
+.fv { margin-bottom: 2px; }
+
+.gx { font-size: 32px; }
+
+.gy { margin-top: 1.01em; }
+
+.gz { margin-bottom: 24px; }
+
+.ha { line-height: 38px; }
+
+.hb { letter-spacing: -0.014em; }
+
+.hw { align-items: flex-start; }
+
+.hx { flex-direction: column-reverse; }
+
+.jb { margin: 24px -24px 0px; }
+
+.jc { padding: 0px; }
+
+.jr > * { margin-right: 8px; }
+
+.js > :last-child { margin-right: 24px; }
+
+.kk { margin-left: 0px; }
+
+.kv { margin-top: 0px; }
+
+.kw { margin-right: 0px; }
+
+.lm { margin: 0px; }
+
+.lw { border: 1px solid rgb(242, 242, 242); }
+
+.lx { border-radius: 99em; }
+
+.ly { padding: 0px 16px 0px 12px; }
+
+.lz { height: 38px; }
+
+.ma { align-items: center; }
+
+.mc svg { margin-right: 8px; }
+
+.mn { font-size: 18px; }
+
+.mo { margin-top: 1.56em; }
+
+.mp { line-height: 28px; }
+
+.mq { letter-spacing: -0.003em; }
+
+.nn { margin-top: 40px; }
+
+.oo { margin-top: 1.34em; }
+
+.ov { font-size: 20px; }
+
+.ow { margin-top: 1.2em; }
+
+.ox { line-height: 24px; }
+
+.oy { letter-spacing: 0px; }
+
+.pq { margin-top: 0.67em; }
+
+.qn { display: inline-block; }
+
+.qw { flex-direction: column; }
+
+.rf { margin-bottom: 20px; }
+
+.rg { margin-right: 0px; }
+
+.rt { max-width: 100%; }
+
+.rw { font-size: 24px; }
+
+.rx { line-height: 30px; }
+
+.ry { letter-spacing: -0.016em; }
+
+.sl { margin-bottom: 64px; }
+
+.sw { margin: 32px 0px 16px; }
+
+.ti { width: 100%; }
+
+.tn { padding-top: 48px; }
+
+.mb:hover { border-color: rgb(229, 229, 229); }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-962142d9-4c9e-4b00-a295-a08359dc5b92@mhtml.blink
+
+@charset "utf-8";
+
+.g { display: none; }
+
+.kx { margin-top: 0px; }
+
+.ky { margin-right: 0px; }
+
+.qo { display: inline-block; }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ec3d8d8e-3fb1-4e22-8d1f-88441d91c649@mhtml.blink
+
+@charset "utf-8";
+
+.f { display: none; }
+
+.kz { margin-top: 0px; }
+
+.qp { display: inline-block; }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-0dfa863f-3132-4073-844c-bc5b76325422@mhtml.blink
+
+@charset "utf-8";
+
+.e { display: none; }
+
+.la { margin-top: 0px; }
+
+.qq { display: inline-block; }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2c9c211b-ac83-4077-a4ca-b0243243a346@mhtml.blink
+
+@charset "utf-8";
+
+.d { display: none; }
+
+.bu { width: 64px; }
+
+.cf { margin: 0px 64px; }
+
+.cu { height: 48px; }
+
+.db { margin-bottom: 52px; }
+
+.dn { margin-bottom: 48px; }
+
+.ee { font-size: 14px; }
+
+.ef { line-height: 20px; }
+
+.el { font-size: 13px; }
+
+.em { padding: 5px 12px; }
+
+.fi { display: flex; }
+
+.fz { margin-bottom: 50px; }
+
+.gd { max-width: 680px; }
+
+.hr { font-size: 42px; }
+
+.hs { margin-top: 1.19em; }
+
+.ht { margin-bottom: 32px; }
+
+.hu { line-height: 52px; }
+
+.hv { letter-spacing: -0.011em; }
+
+.ie { align-items: center; }
+
+.if { flex-direction: row; }
+
+.jn { border-top: 1px solid rgb(242, 242, 242); }
+
+.jo { border-bottom: 1px solid rgb(242, 242, 242); }
+
+.jp { margin: 32px 0px 0px; }
+
+.jq { padding: 3px 8px; }
+
+.jz > * { margin-right: 24px; }
+
+.ka > :last-child { margin-right: 0px; }
+
+.lb { margin-top: 0px; }
+
+.lq { margin: 0px; }
+
+.nd { font-size: 20px; }
+
+.ne { margin-top: 2.14em; }
+
+.nf { line-height: 32px; }
+
+.ng { letter-spacing: -0.003em; }
+
+.nr { margin-top: 56px; }
+
+.os { margin-top: 1.14em; }
+
+.pl { font-size: 24px; }
+
+.pm { margin-top: 1.95em; }
+
+.pn { line-height: 30px; }
+
+.po { letter-spacing: -0.016em; }
+
+.pu { margin-top: 0.94em; }
+
+.qr { display: inline-block; }
+
+.qx { margin-bottom: 0px; }
+
+.qy { margin-right: 20px; }
+
+.rp { max-width: 500px; }
+
+.sg { line-height: 24px; }
+
+.sh { letter-spacing: 0px; }
+
+.sp { margin-bottom: 88px; }
+
+.ta { margin: 40px 0px 16px; }
+
+.tm { }
+
+.tr { padding-top: 72px; }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-bc31b673-d8f3-4d82-9b8d-95bbd8be5e55@mhtml.blink
+
+@charset "utf-8";
+
+.a { font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSy=
+stemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helv=
+etica Neue", sans-serif; }
+
+.b { font-weight: 400; }
+
+.c { background-color: rgb(255, 255, 255); }
+
+.l { display: block; }
+
+.m { position: sticky; }
+
+.n { top: 0px; }
+
+.o { z-index: 500; }
+
+.p { padding: 0px 24px; }
+
+.q { align-items: center; }
+
+.r { border-bottom: 1px solid rgb(242, 242, 242); }
+
+.y { height: 41px; }
+
+.z { line-height: 20px; }
+
+.ab { display: flex; }
+
+.ac { height: 57px; }
+
+.ae { flex: 1 0 auto; }
+
+.af { color: inherit; }
+
+.ag { fill: inherit; }
+
+.ah { font-size: inherit; }
+
+.ai { border: none; }
+
+.aj { font-family: inherit; }
+
+.ak { letter-spacing: inherit; }
+
+.al { font-weight: inherit; }
+
+.am { padding: 0px; }
+
+.an { margin: 0px; }
+
+.ao { cursor: pointer; }
+
+.ap:disabled { cursor: not-allowed; }
+
+.aq:disabled { color: rgb(107, 107, 107); }
+
+.ar:disabled { fill: rgb(107, 107, 107); }
+
+.au { width: auto; }
+
+.av path { fill: rgb(36, 36, 36); }
+
+.aw { height: 25px; }
+
+.ax { margin-left: 24px; }
+
+.ay { border-radius: 20px; }
+
+.az { width: 240px; }
+
+.ba { background: rgb(249, 249, 249); }
+
+.bb path { fill: rgb(107, 107, 107); }
+
+.bd { outline: none; }
+
+.be { font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.bf { font-size: 14px; }
+
+.bg { width: 100%; }
+
+.bh { padding: 10px 20px 10px 0px; }
+
+.bi { background-color: transparent; }
+
+.bj { color: rgb(36, 36, 36); }
+
+.bk::placeholder { color: rgb(107, 107, 107); }
+
+.bl { display: inline-block; }
+
+.bm { margin-left: 12px; }
+
+.bn { margin-right: 12px; }
+
+.bo { border-radius: 4px; }
+
+.bp { height: 24px; }
+
+.bv { background-color: rgb(249, 249, 249); }
+
+.bw { border-radius: 50%; }
+
+.bx { height: 32px; }
+
+.by { width: 32px; }
+
+.bz { flex: 1 1 auto; }
+
+.ca { justify-content: center; }
+
+.cg { max-width: 680px; }
+
+.ch { min-width: 0px; }
+
+.ci { animation: 1.2s ease-in-out 0s infinite normal none running k1; }
+
+.cj { height: 100vh; }
+
+.ck { margin-bottom: 16px; }
+
+.cl { margin-top: 48px; }
+
+.cm { align-items: flex-start; }
+
+.cn { flex-direction: column; }
+
+.co { justify-content: space-between; }
+
+.cp { margin-bottom: 24px; }
+
+.cv { width: 80%; }
+
+.cw { background-color: rgb(242, 242, 242); }
+
+.dc { height: 44px; }
+
+.dd { width: 44px; }
+
+.de { margin: auto 0px; }
+
+.df { margin-bottom: 4px; }
+
+.dg { height: 16px; }
+
+.dh { width: 120px; }
+
+.di { width: 80px; }
+
+.do { margin-bottom: 8px; }
+
+.dp { width: 96%; }
+
+.dq { width: 98%; }
+
+.dr { width: 81%; }
+
+.ds { margin-left: 8px; }
+
+.dt { color: rgb(107, 107, 107); }
+
+.du { font-size: 13px; }
+
+.dv { height: 100%; }
+
+.eo { color: rgb(255, 255, 255); }
+
+.ep { fill: rgb(255, 255, 255); }
+
+.eq { background: rgb(26, 137, 23); }
+
+.er { border-color: rgb(26, 137, 23); }
+
+.ev:disabled { cursor: inherit !important; }
+
+.ew:disabled { opacity: 0.3; }
+
+.ex:disabled:hover { background: rgb(26, 137, 23); }
+
+.ey:disabled:hover { border-color: rgb(26, 137, 23); }
+
+.ez { border-radius: 99em; }
+
+.fa { border-width: 1px; }
+
+.fb { border-style: solid; }
+
+.fc { box-sizing: border-box; }
+
+.fd { text-decoration: none; }
+
+.fe { text-align: center; }
+
+.ff { margin-left: 16px; }
+
+.fg { border: inherit; }
+
+.fj { margin-right: 32px; }
+
+.fk { position: relative; }
+
+.fl { fill: rgb(107, 107, 107); }
+
+.fo { background: transparent; }
+
+.fp svg { margin-left: 4px; }
+
+.fq svg { fill: rgb(107, 107, 107); }
+
+.fs { box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset; }
+
+.ft { position: absolute; }
+
+.ga { margin: 0px 24px; }
+
+.ge { background: rgb(255, 255, 255); }
+
+.gf { border: 1px solid rgb(242, 242, 242); }
+
+.gg { box-shadow: rgb(242, 242, 242) 0px 1px 4px; }
+
+.gh { max-height: 100vh; }
+
+.gi { overflow-y: auto; }
+
+.gj { left: 0px; }
+
+.gk { top: calc(100px + 100vh); }
+
+.gl { bottom: calc(100px + 100vh); }
+
+.gm { width: 10px; }
+
+.gn { pointer-events: none; }
+
+.go { word-break: break-word; }
+
+.gp { overflow-wrap: break-word; }
+
+.gq::after { display: block; }
+
+.gr::after { content: ""; }
+
+.gs::after { clear: both; }
+
+.gt { line-height: 1.23; }
+
+.gu { letter-spacing: 0px; }
+
+.gv { font-style: normal; }
+
+.gw { font-weight: 700; }
+
+.ig { gap: 12px; }
+
+.ih { align-items: baseline; }
+
+.ii { width: 36px; }
+
+.ij { height: 36px; }
+
+.ik { border: 2px solid rgb(255, 255, 255); }
+
+.il { z-index: 0; }
+
+.im { box-shadow: none; }
+
+.in { border: 1px solid rgba(0, 0, 0, 0.05); }
+
+.io { margin-bottom: 2px; }
+
+.ip { flex-wrap: nowrap; }
+
+.ir { width: 12px; }
+
+.is { background: 0px center; }
+
+.it path { stroke: rgb(36, 36, 36); }
+
+.iu { border-radius: 24px; }
+
+.iv { width: 66px; }
+
+.iw { padding: 6px 12px; }
+
+.ix { word-break: keep-all; }
+
+.iy { flex-wrap: wrap; }
+
+.iz { padding-left: 8px; }
+
+.ja { padding-right: 8px; }
+
+.kb > * { flex-shrink: 0; }
+
+.kc { overflow-x: scroll; }
+
+.kd::-webkit-scrollbar { display: none; }
+
+.ke { scrollbar-width: none; }
+
+.kf { }
+
+.kg { width: 74px; }
+
+.kh { flex-direction: row; }
+
+.ki { z-index: 2; }
+
+.kj { margin-right: 4px; }
+
+.km { user-select: none; }
+
+.kn { border: 0px; }
+
+.ko { fill: rgb(117, 117, 117); }
+
+.kr { outline: 0px; }
+
+.ks { user-select: none; }
+
+.kt > svg { pointer-events: none; }
+
+.lc { cursor: progress; }
+
+.ld { margin-left: 4px; }
+
+.le { margin-top: 0px; }
+
+.lf { opacity: 1; }
+
+.lg { padding: 4px 0px; }
+
+.lj { width: 16px; }
+
+.ll { display: inline-flex; }
+
+.lr { max-width: 100%; }
+
+.ls { padding: 8px 2px; }
+
+.lt svg { color: rgb(107, 107, 107); }
+
+.mk { line-height: 1.58; }
+
+.ml { letter-spacing: -0.004em; }
+
+.mm { font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", T=
+imes, serif; }
+
+.nh { margin-bottom: -0.46em; }
+
+.ni { text-decoration: underline; }
+
+.nj { padding: 2px 4px; }
+
+.nk { font-size: 75%; }
+
+.nl > strong { font-family: inherit; }
+
+.nm { font-family: source-code-pro, Menlo, Monaco, "Courier New", Courier, =
+monospace; }
+
+.ns { overflow-x: auto; }
+
+.nt { padding: 32px; }
+
+.nu { border: 1px solid rgb(229, 229, 229); }
+
+.nv { line-height: 1.4; }
+
+.nw { letter-spacing: -0.022em; }
+
+.nx { margin-top: -0.2em; }
+
+.ny { margin-bottom: -0.2em; }
+
+.nz { white-space: pre; }
+
+.oa { min-width: fit-content; }
+
+.ob { margin-left: auto; }
+
+.oc { margin-right: auto; }
+
+.od { max-width: 960px; }
+
+.oe { clear: both; }
+
+.og { cursor: zoom-in; }
+
+.oh { z-index: auto; }
+
+.oj { height: auto; }
+
+.ok { max-width: 1042px; }
+
+.ol { list-style-type: decimal; }
+
+.om { margin-left: 30px; }
+
+.on { padding-left: 0px; }
+
+.ot { line-height: 1.12; }
+
+.ou { font-weight: 600; }
+
+.pp { margin-bottom: -0.28em; }
+
+.pv { margin-bottom: 26px; }
+
+.pw { margin-top: 6px; }
+
+.px { margin-top: 8px; }
+
+.py { margin-right: 8px; }
+
+.pz { padding: 8px 16px; }
+
+.qa { border-radius: 100px; }
+
+.qb { transition: background 300ms; }
+
+.qd { white-space: nowrap; }
+
+.qe { border-top: none; }
+
+.qf { margin-bottom: 50px; }
+
+.qg { height: 52px; }
+
+.qh { max-height: 52px; }
+
+.qi { box-sizing: content-box; }
+
+.qj { position: static; }
+
+.qk { z-index: 1; }
+
+.qm { max-width: 155px; }
+
+.qs { margin-right: 20px; }
+
+.qt { flex: 0 0 auto; }
+
+.qu { margin-bottom: 64px; }
+
+.rh { height: 48px; }
+
+.ri { width: 48px; }
+
+.rk { height: 64px; }
+
+.rl { width: 64px; }
+
+.rm { align-self: flex-end; }
+
+.rn { border-radius: 19px; }
+
+.ro { padding: 9px 16px; }
+
+.ru { padding-right: 4px; }
+
+.rv { font-weight: 500; }
+
+.si { white-space: pre-wrap; }
+
+.sj { margin: 0px 8px; }
+
+.sk { margin-top: 16px; }
+
+.sq { height: 0px; }
+
+.sr { gap: 18px; }
+
+.ss { fill: rgb(61, 61, 61); }
+
+.su { padding-bottom: 20px; }
+
+.sv { border-bottom: 1px solid rgb(242, 242, 242); }
+
+.tb { margin-top: 32px; }
+
+.tc { fill: rgb(36, 36, 36); }
+
+.td { border-color: rgb(36, 36, 36); }
+
+.tf:disabled:hover { color: rgb(36, 36, 36); }
+
+.tg:disabled:hover { fill: rgb(36, 36, 36); }
+
+.th:disabled:hover { border-color: rgb(36, 36, 36); }
+
+.ts { border-bottom: 1px solid rgb(229, 229, 229); }
+
+.tt { margin-top: 72px; }
+
+.tu { padding: 24px 0px; }
+
+.tv { margin-bottom: 0px; }
+
+.tw { margin-right: 16px; }
+
+.as:hover:not(:disabled) { color: rgb(25, 25, 25); }
+
+.at:hover:not(:disabled) { fill: rgb(25, 25, 25); }
+
+.es:hover { background: rgb(21, 109, 18); }
+
+.et:hover { border-color: rgb(21, 109, 18); }
+
+.eu:hover { cursor: pointer; }
+
+.fm:hover { color: rgb(36, 36, 36); }
+
+.fn:hover { fill: rgb(36, 36, 36); }
+
+.fr:hover svg { fill: rgb(36, 36, 36); }
+
+.fu:hover { background-color: rgba(0, 0, 0, 0.1); }
+
+.iq:hover { text-decoration: underline; }
+
+.kq:hover { fill: rgb(8, 8, 8); }
+
+.lh:hover { fill: rgb(0, 0, 0); }
+
+.li:hover p { color: rgb(0, 0, 0); }
+
+.lk:hover { color: rgb(0, 0, 0); }
+
+.lu:hover svg { color: rgb(0, 0, 0); }
+
+.qc:hover { background-color: rgb(242, 242, 242); }
+
+.rj:hover { }
+
+.st:hover { fill: rgb(25, 25, 25); }
+
+.te:hover { border-color: rgb(36, 36, 36); }
+
+.bc:focus-within path { fill: rgb(36, 36, 36); }
+
+.kp:focus { fill: rgb(8, 8, 8); }
+
+.lv:focus svg { color: rgb(0, 0, 0); }
+
+.oi:focus { transform: scale(1.01); }
+
+.ku:active { border-style: none; }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2a768755-c752-4412-bbf9-b37b4f328e9c@mhtml.blink
+
+@charset "utf-8";
+
+@-webkit-keyframes k1 {=20
+  0% { opacity: 0.8; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0.8; }
+}
+
+@keyframes k1 {=20
+  0% { opacity: 0.8; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0.8; }
+}
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-119bdaa7-133d-4026-ba82-7d85842aeb0a@mhtml.blink
+
+@charset "utf-8";
+
+html { box-sizing: border-box; text-size-adjust: 100%; }
+
+*, ::before, ::after { box-sizing: inherit; }
+
+body { margin: 0px; padding: 0px; text-rendering: optimizelegibility; -webk=
+it-font-smoothing: antialiased; color: rgba(0, 0, 0, 0.8); position: relati=
+ve; min-height: 100vh; }
+
+h1, h2, h3, h4, h5, h6, dl, dd, ol, ul, menu, figure, blockquote, p, pre, f=
+orm { margin: 0px; }
+
+menu, ol, ul { padding: 0px; list-style: none none; }
+
+main { display: block; }
+
+a { color: inherit; text-decoration: none; }
+
+a, button, input { -webkit-tap-highlight-color: transparent; }
+
+img, svg { vertical-align: middle; }
+
+button { background: transparent; overflow: visible; }
+
+button, input, optgroup, select, textarea { margin: 0px; }
+
+:root { --reach-tabs: 1; --reach-menu-button: 1; }
+
+#speechify-root { font-family: Sohne, sans-serif; }
+
+div[data-popper-reference-hidden=3D"true"] { visibility: hidden; pointer-ev=
+ents: none; }
+
+.grecaptcha-badge { visibility: hidden; }
+
+.hljs { background: rgb(255, 255, 255); color: black; }
+
+.xml .hljs-meta { color: rgb(192, 192, 192); }
+
+.hljs-comment, .hljs-quote { color: rgb(0, 116, 0); }
+
+.hljs-tag, .hljs-attribute, .hljs-keyword, .hljs-selector-tag, .hljs-litera=
+l, .hljs-name { color: rgb(170, 13, 145); }
+
+.hljs-variable, .hljs-template-variable { color: rgb(63, 110, 116); }
+
+.hljs-code, .hljs-string, .hljs-meta .hljs-string { color: rgb(196, 26, 22)=
+; }
+
+.hljs-regexp, .hljs-link { color: rgb(14, 14, 255); }
+
+.hljs-title, .hljs-symbol, .hljs-bullet, .hljs-number { color: rgb(28, 0, 2=
+07); }
+
+.hljs-section, .hljs-meta { color: rgb(100, 56, 32); }
+
+.hljs-title.class_, .hljs-class .hljs-title, .hljs-type, .hljs-built_in, .h=
+ljs-params { color: rgb(92, 38, 153); }
+
+.hljs-attr { color: rgb(131, 108, 40); }
+
+.hljs-subst { color: rgb(0, 0, 0); }
+
+.hljs-formula { background-color: rgb(238, 238, 238); font-style: italic; }
+
+.hljs-addition { background-color: rgb(186, 238, 186); }
+
+.hljs-deletion { background-color: rgb(255, 200, 189); }
+
+.hljs-selector-id, .hljs-selector-class { color: rgb(155, 112, 63); }
+
+.hljs-doctag, .hljs-strong { font-weight: bold; }
+
+.hljs-emphasis { font-style: italic; }
+------MultipartBoundary--UU8FDFBOaLzi7LpeqpkGCtc3Gxp6Mw8rWkWX6gMWBy------
