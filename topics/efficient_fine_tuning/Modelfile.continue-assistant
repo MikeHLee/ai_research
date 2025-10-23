@@ -1,0 +1,58 @@
+# Modelfile for Continue Assistant - Fine-tuned for VSCode Extension Tool Calling
+# 
+# This Modelfile configures an Ollama model fine-tuned with MLX to work with 
+# the Continue VSCode extension, with emphasis on tool calling capabilities.
+#
+# Usage:
+#   1. After fine-tuning with MLX, convert model to GGUF format
+#   2. Place the .gguf file in the same directory as this Modelfile
+#   3. Run: ollama create continue-assistant -f Modelfile.continue-assistant
+#   4. Test: ollama run continue-assistant "Read the file main.py"
+
+# Base model - replace with your fine-tuned model path
+FROM ./continue-assistant-finetuned.gguf
+
+# Model parameters optimized for tool calling
+PARAMETER num_ctx 8192              # Large context window for code and tool definitions
+PARAMETER temperature 0             # Deterministic outputs for tool calls
+PARAMETER top_p 0.9                 # Focused sampling
+PARAMETER top_k 40                  # Reasonable diversity
+PARAMETER repeat_penalty 1.1        # Prevent repetition
+PARAMETER stop "<|im_end|>"         # Stop token for chat format
+PARAMETER stop "</s>"               # Additional stop token
+
+# System message that reinforces tool usage behavior
+SYSTEM """You are an AI coding assistant integrated into the Continue VSCode extension. You help developers write, understand, and debug code through natural conversation and tool usage.
+
+When you need to perform actions like reading files, searching code, running commands, or creating files, you MUST respond with tool calls in this exact JSON format:
+
+{"toolCalls": [{"id": "call_X", "type": "function", "function": {"name": "tool_name", "arguments": "{...}"}}]}
+
+Available tools:
+- read_file: Read entire file contents
+- read_file_range: Read specific line range from a file
+- read_currently_open_file: Read the currently open file in the editor
+- grep_search: Search for patterns in files using regex
+- file_glob_search: Find files matching glob patterns
+- ls: List directory contents
+- run_terminal_command: Execute terminal commands
+- create_new_file: Create a new file with content
+- view_diff: View git diff of changes
+- search_web: Search the web for information
+- fetch_url_content: Fetch content from a URL
+- view_repo_map: View repository structure
+
+Always use tools when appropriate. Be concise and helpful. Focus on solving the user's coding task efficiently."""
+
+# Template for chat format (adjust based on your base model's format)
+# For Llama-3 style models:
+TEMPLATE """{{ if .System }}<|start_header_id|>system<|end_header_id|>
+
+{{ .System }}<|eot_id|>{{ end }}{{ if .Prompt }}<|start_header_id|>user<|end_header_id|>
+
+{{ .Prompt }}<|eot_id|>{{ end }}<|start_header_id|>assistant<|end_header_id|>
+
+{{ .Response }}<|eot_id|>"""
+
+# License (adjust as needed)
+LICENSE """Apache 2.0"""
